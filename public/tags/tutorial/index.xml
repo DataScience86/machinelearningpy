@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorial on Machine Learnig Py</title>
+    <link>/tags/tutorial/</link>
+    <description>Recent content in Tutorial on Machine Learnig Py</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>Will update soon (Mohit Sharma)</managingEditor>
+    <webMaster>Will update soon (Mohit Sharma)</webMaster>
+    <copyright>&amp;copy; Copyright by Machine Learning Py {year}, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 06 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>A Step By Step Seaborn Tutorial</title>
+        <link>/posts/seaborn-tutorial/</link>
+        <pubDate>Fri, 06 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/posts/seaborn-tutorial/</guid>
+        <description>Introduction To Seaborn Seaborn is a python library which is built on top of matplotlib package. The package is also closely integrated with pandas data structure. Seaborn functions aim to make exploring and data understanding easy through visualization. The functions provided in seaborn can work on data frames and arrays. While building graphs the functions can internally perform statistical aggregations and generate informative graphs. In this article, we will leanr how to draw different types of charts using seaborn library in Python.</description>
+      </item>
+      
+      <item>
+        <title>Python Programming Tutorial</title>
+        <link>/posts/python-programming-tutorial/</link>
+        <pubDate>Fri, 06 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/posts/python-programming-tutorial/</guid>
+        <description>&lt;p&gt;&lt;strong&gt;Python&lt;/strong&gt; is a powerful and versatile programming language. It is easy to understand and learn. Today, the python programming language is widely used in the industry. Some of the applications of python programming include Web Development, Robotics, 3D CAD Applications, &lt;strong&gt;Data Analysis, Face Detection, Machine Learning, and Artificial Intelligence&lt;/strong&gt;. In this tutorial, we will cover all the fundamental building blocks of Python!&lt;/p&gt;</description>
+      </item>
+      
+    
+  </channel>
+</rss>

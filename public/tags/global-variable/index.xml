@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Global variable on Machine Learnig Py</title>
+    <link>/tags/global-variable/</link>
+    <description>Recent content in Global variable on Machine Learnig Py</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>Will update soon (Mohit Sharma)</managingEditor>
+    <webMaster>Will update soon (Mohit Sharma)</webMaster>
+    <copyright>&amp;copy; Copyright by Machine Learning Py {year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sun, 08 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="/tags/global-variable/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>Scope of Variables</title>
+        <link>/notes/variable-scoping/</link>
+        <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/notes/variable-scoping/</guid>
+        <description>Scope in computer programming language means the visibility of variables. It is the scope that defines which part of the program can use/see the variable. In general, a variable, once defined, can be accessed from any part of the code. However, sometimes, we would like to restrict the use of the variable to a specific section of the code. Programmers may want to do this to avoid unexpected errors.
+For example, you may like to limit the scope of a variable to a specific function.</description>
+      </item>
+      
+    
+  </channel>
+</rss>

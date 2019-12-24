@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IsolationForest on Machine Learnig Py</title>
+    <link>/tags/isolationforest/</link>
+    <description>Recent content in IsolationForest on Machine Learnig Py</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>Will update soon (Mohit Sharma)</managingEditor>
+    <webMaster>Will update soon (Mohit Sharma)</webMaster>
+    <copyright>&amp;copy; Copyright by Machine Learning Py {year}, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 20 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="/tags/isolationforest/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>How to identify Anomalies/Outliers in Python</title>
+        <link>/posts/outlier-anomaly-detection/</link>
+        <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/posts/outlier-anomaly-detection/</guid>
+        <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Data objects or points which exhibit very different behavior than the expectations are called as &lt;strong&gt;outliers or anomalies&lt;/strong&gt;. They can indicate variability in the measurement, an error in the collection, a new point(due to some changes), or it could be true, which happens to be away from most of the observations.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Detecting and treating outliers is an important part of data exploration.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+      </item>
+      
+    
+  </channel>
+</rss>

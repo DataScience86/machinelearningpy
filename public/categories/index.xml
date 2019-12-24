@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Machine Learnig Py</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on Machine Learnig Py</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>Will update soon (Mohit Sharma)</managingEditor>
+    <webMaster>Will update soon (Mohit Sharma)</webMaster>
+    <copyright>&amp;copy; Copyright by Machine Learning Py {year}, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 20 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>Clustering</title>
+        <link>/categories/clustering/</link>
+        <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/categories/clustering/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Python</title>
+        <link>/categories/python/</link>
+        <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/categories/python/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Statistics</title>
+        <link>/categories/statistics/</link>
+        <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/categories/statistics/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Unsupervised Learning</title>
+        <link>/categories/unsupervised-learning/</link>
+        <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/categories/unsupervised-learning/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Machine Learning</title>
+        <link>/categories/machine-learning/</link>
+        <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/categories/machine-learning/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Natural Language Processing</title>
+        <link>/categories/natural-language-processing/</link>
+        <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/categories/natural-language-processing/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Programming</title>
+        <link>/categories/programming/</link>
+        <pubDate>Fri, 06 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/categories/programming/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Visualization</title>
+        <link>/categories/visualization/</link>
+        <pubDate>Fri, 06 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/categories/visualization/</guid>
+        <description></description>
+      </item>
+      
+    
+  </channel>
+</rss>

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Machine Learnig Py</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Machine Learnig Py</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>Will update soon (Mohit Sharma)</managingEditor>
+    <webMaster>Will update soon (Mohit Sharma)</webMaster>
+    <copyright>&amp;copy; Copyright by Machine Learning Py {year}, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 20 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>Anomaly</title>
+        <link>/tags/anomaly/</link>
+        <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/tags/anomaly/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Cooks Distance</title>
+        <link>/tags/cooks-distance/</link>
+        <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/tags/cooks-distance/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>DBSCAN</title>
+        <link>/tags/dbscan/</link>
+        <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/tags/dbscan/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>IsolationForest</title>
+        <link>/tags/isolationforest/</link>
+        <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/tags/isolationforest/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Multivariate</title>
+        <link>/tags/multivariate/</link>
+        <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/tags/multivariate/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Outlier</title>
+        <link>/tags/outlier/</link>
+        <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/tags/outlier/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Python</title>
+        <link>/tags/python/</link>
+        <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/tags/python/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Univariate</title>
+        <link>/tags/univariate/</link>
+        <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/tags/univariate/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Data preparation</title>
+        <link>/tags/data-preparation/</link>
+        <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/tags/data-preparation/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Dimentionality Reduction</title>
+        <link>/tags/dimentionality-reduction/</link>
+        <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/tags/dimentionality-reduction/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Face Detection</title>
+        <link>/tags/face-detection/</link>
+        <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/tags/face-detection/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Feature Extraction</title>
+        <link>/tags/feature-extraction/</link>
+        <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/tags/feature-extraction/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Imbalanced data</title>
+        <link>/tags/imbalanced-data/</link>
+        <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/tags/imbalanced-data/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>NLP</title>
+        <link>/tags/nlp/</link>
+        <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/tags/nlp/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>NMF</title>
+        <link>/tags/nmf/</link>
+        <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/tags/nmf/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>NMF Clustering</title>
+        <link>/tags/nmf-clustering/</link>
+        <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/tags/nmf-clustering/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Non-Negative Matrix Factorization</title>
+        <link>/tags/non-negative-matrix-factorization/</link>
+        <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/tags/non-negative-matrix-factorization/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Note</title>
+        <link>/tags/note/</link>
+        <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/tags/note/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Recommender Systems</title>
+        <link>/tags/recommender-systems/</link>
+        <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/tags/recommender-systems/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>SMOTE</title>
+        <link>/tags/smote/</link>
+        <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/tags/smote/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Topic Modeling</title>
+        <link>/tags/topic-modeling/</link>
+        <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/tags/topic-modeling/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Upsampling</title>
+        <link>/tags/upsampling/</link>
+        <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/tags/upsampling/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Global variable</title>
+        <link>/tags/global-variable/</link>
+        <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/tags/global-variable/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Local Variable</title>
+        <link>/tags/local-variable/</link>
+        <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/tags/local-variable/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Exploratory data analysis</title>
+        <link>/tags/exploratory-data-analysis/</link>
+        <pubDate>Fri, 06 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/tags/exploratory-data-analysis/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Graph</title>
+        <link>/tags/graph/</link>
+        <pubDate>Fri, 06 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/tags/graph/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Plot</title>
+        <link>/tags/plot/</link>
+        <pubDate>Fri, 06 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/tags/plot/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Python Beginners Tutorial</title>
+        <link>/tags/python-beginners-tutorial/</link>
+        <pubDate>Fri, 06 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/tags/python-beginners-tutorial/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Seaborn</title>
+        <link>/tags/seaborn/</link>
+        <pubDate>Fri, 06 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/tags/seaborn/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Tutorial</title>
+        <link>/tags/tutorial/</link>
+        <pubDate>Fri, 06 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/tags/tutorial/</guid>
+        <description></description>
+      </item>
+      
+    
+  </channel>
+</rss>

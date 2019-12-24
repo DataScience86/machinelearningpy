@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Clustering on Machine Learnig Py</title>
+    <link>/categories/clustering/</link>
+    <description>Recent content in Clustering on Machine Learnig Py</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>Will update soon (Mohit Sharma)</managingEditor>
+    <webMaster>Will update soon (Mohit Sharma)</webMaster>
+    <copyright>&amp;copy; Copyright by Machine Learning Py {year}, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 20 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="/categories/clustering/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>How to identify Anomalies/Outliers in Python</title>
+        <link>/posts/outlier-anomaly-detection/</link>
+        <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/posts/outlier-anomaly-detection/</guid>
+        <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Data objects or points which exhibit very different behavior than the expectations are called as &lt;strong&gt;outliers or anomalies&lt;/strong&gt;. They can indicate variability in the measurement, an error in the collection, a new point(due to some changes), or it could be true, which happens to be away from most of the observations.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Detecting and treating outliers is an important part of data exploration.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+      </item>
+      
+      <item>
+        <title>Non-Negative Matrix Factorization(NMF) - With Examples in Python</title>
+        <link>/posts/non-negative-matirx-factorization/</link>
+        <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        <guid>/posts/non-negative-matirx-factorization/</guid>
+        <description>&lt;p&gt;&lt;strong&gt;Non-Matrix Factorization&lt;/strong&gt;, aka NMF, is a widely used algorithm for the analysis of non-negative high dimensional data. The algorithm is handy in extracting meaningful features from a non-negative matrix. It was first introduced in 1994 by Paatero and Tapper. The algorithm has been long used for extracting information from chemical systems using data-driven approaches under the name * self-modeling curve resolution*. It got its name as Non-Negative Matrix Factorization after a popular article from Lee and Seung in 1999. The paper discussed &lt;em&gt;properties of the algorithm and published some simple and useful algorithms for two types of factorizations&lt;/em&gt;.&lt;a href=&#34;https://en.wikipedia.org/wiki/Non-negative_matrix_factorization&#34;&gt;[&lt;!-- raw HTML omitted --&gt;1&lt;!-- raw HTML omitted --&gt;]&lt;/a&gt;&lt;/p&gt;</description>
+      </item>
+      
+    
+  </channel>
+</rss>
