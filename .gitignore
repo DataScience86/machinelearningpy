@@ -1,3 +1,7 @@
+-.Rproj.user
+-.Rhistory
+-.RData
+-.Ruserdata
 .idea/
 .vscode/
 node_modules/
