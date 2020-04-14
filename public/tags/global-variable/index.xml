@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Global variable on Machine Learnig Py</title>
     <link>/tags/global-variable/</link>
@@ -15,17 +20,52 @@
     
     
     
+
       
       <item>
         <title>Scope of Variables</title>
         <link>/notes/variable-scoping/</link>
         <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
         <author>Will update soon (Mohit Sharma)</author>
+        <atom:modified>Sun, 08 Dec 2019 00:00:00 +0000</atom:modified>
         <guid>/notes/variable-scoping/</guid>
         <description>Scope in computer programming language means the visibility of variables. It is the scope that defines which part of the program can use/see the variable. In general, a variable, once defined, can be accessed from any part of the code. However, sometimes, we would like to restrict the use of the variable to a specific section of the code. Programmers may want to do this to avoid unexpected errors.
 For example, you may like to limit the scope of a variable to a specific function.</description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        <media:content url="/image/notesfeatureimg/variablescope.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+          
+            
+              <category>Python</category>
+            
+          
+            
+              <category>Note</category>
+            
+          
+            
+              <category>Global variable</category>
+            
+          
+            
+              <category>Local Variable</category>
+            
+          
+        
+        
+          
+            
+              <category>Python</category>
+            
+          
+        
+        
       </item>
       
+
     
   </channel>
 </rss>

@@ -10,8 +10,25 @@
     font-family: $title-font;
     line-height: 3rem;
     overflow-wrap: break-word;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    
+    @include themify($themes) {
+      color: themed("single-header-title-color");
+    }
 
-    //@include animation('slide-in-down .3s .1s 1 ease both');
+    &[data-ani="true"] {
+      @include animation('slide-in-down .2s .3s 1 ease-in both');
+    }
+  }
+
+  &__shorttitle {
+    font-size: 1.5rem;
+    font-family: $title-font;
+    overflow-wrap: break-word;
+    margin-bottom: 0.25rem;
+    opacity: 0.7;
+
     @include themify($themes) {
       color: themed("single-header-title-color");
     }
@@ -19,33 +36,56 @@
 
   &__meta {
     font-size: 0.8rem;
+    margin-bottom: 2rem;
+
     @include flexbox();
     @include align-items(center);
-    //@include animation('slide-in-down .3s .4s 1 ease both');
-
-    @include respond-to(sm) {
+    @include flex-wrap(wrap);
+    @include flex-grow(1);
+    @include themify($themes) {
+      color: themed('meta-color');
+    }
+    @media only screen and (max-width: 769px) {
       @include flexbox();
       @include flex-direction(column);
       @include align-items(flex-start);
     }
-    @include themify($themes) {
-      color: themed('meta-color');
-    }    
+  }
+
+  &__infos {
+    margin-right: 0.5rem;
+
+    @include flexbox();
+    @include flex-wrap(wrap);
+  }
+
+  &__info {
+    word-break: keep-all;
+    padding: 0 0.125rem;
+  }
+
+  &__nojs {
+    width: 100%;
+    color: red;
+    padding: 0.5rem 0;
   }
 
   &__contents {
+    &[data-ani="true"] {
+      @include animation('slide-in-left-little .2s .6s 1 ease-in both');
+    }
+    
     &--gallery {
       overflow: hidden;
     }
 
-    &>p>a {
+    & > p > a {
       text-decoration: underline;
     }
 
-    font-size: 1rem;
-    font-family: $content-font;
     margin: 1rem 0;
-    line-height: 1.7rem;
+    font-size: 1rem;
+    line-height: 1.7;
     width: inheirt;
     max-width: inherit;
     h1,
@@ -54,11 +94,30 @@
     h4,
     h5,
     h6 {
-      position: relative;
+      position: relative;      
+      line-height: 1.25;
+      font-family: $title-font;
+    }
+
+    h1,
+    h2 {
+      padding: 0;
+      color: inherit;
+      font-weight: 900;
+      text-rendering: optimizeLegibility; 
+
       @include themify($themes) {
         color: themed("single-contents-title-color");
       }
-      line-height: 1.25;
+    }
+
+    h3,
+    h4,
+    h5,
+    h6 {
+      @include themify($themes) {
+        color: themed("single-contents-subtitle-color");
+      }
     }
 
     h1 {
@@ -69,10 +128,6 @@
     h2 {
       font-size: 2.2rem;
       margin: 3.2rem 0 1.5rem 0;
-      padding: 0;
-      color: inherit;
-      font-weight: 900;
-      text-rendering: optimizeLegibility;      
     }
 
     h3 {
@@ -97,25 +152,60 @@
 
     pre {
       padding: 34px 12px 8px;
-      position: relative;
       overflow: auto;
       border-radius: 0.34rem;
+      line-height: 1.5;
+      font-size: 13.8px;
+      direction: ltr;
+      
+      @include themify($themes) {
+        @include webkit-scrollbars(themed('custom-scrollbar-foreground-color'), themed('custom-scrollbar-background-color'));
+        @include moz-scrollbars(themed('custom-scrollbar-foreground-color'), themed('custom-scrollbar-background-color'));
+      }
+    }
+
+    pre:not(.chroma) {
+      position: relative;
+    }
+
+    div.chroma {
       position: relative;
 
-      &::after {
+      @include on-event {
+        .copy-to-clipboard {
+          opacity: 1;
+        }
+      }
+    }
+    
+    pre > code:not([class^=language]) {
+      &::before {
         position: absolute;
         top: 0;
-        right: 0;
         left: 0;
-        font-size: $code-font-size;
+        padding: 2px 7px;
+        width: 100%;
+        height: 30px;
+        z-index: z('content');
+        line-height: 30px;
+        font-size: 13.8px;
         font-family: $title-font;
         font-weight: bold;
-        content: attr(data-lang);
+        display: inline-block;
+        text-transform: capitalize;      
+        content: 'Code';
 
-        @include themify($themes) {
+        @include themify($codeblock) {
           color: themed('content-pre-header-color');
           background: themed('content-pre-header-background-color');
         }
+      }
+    }
+
+    p > code:not([class^=language]) {
+      padding: 0.25rem 0.5rem;
+      @include themify($codeblock) {
+        color: themed('content-code-color');
       }
     }
 
@@ -129,20 +219,21 @@
     }
 
     .copy-to-clipboard {
-      @include clippy();      
       background-position: 50% 50%;
       background-size: 16px 16px;
       background-repeat: no-repeat;
       width: 27px;
       height: 1.45rem;
       top: -1px;
-      display: inline-block;
       vertical-align: middle;
       position: relative;      
       margin-left: -0.2rem;
       cursor: pointer;
       border-radius: 0 2px 2px 0;
       margin-bottom: 1px;
+      opacity: 0;
+
+      @include clippy();
       @include transition(all, 0.2s, ease);
     }
     .copy-to-clipboard:hover {
@@ -170,22 +261,31 @@
     .language-code .copy-to-clipboard:hover {
       @include translateY(-0.1rem);
     }
+    .highlight > .copy-to-clipboard {
+      position: absolute;
+      right: 4px;
+      top: 5px;      
+      border-radius: 2px;
+      z-index: z('clipboard');
+      @include transition(all, 0.2s, ease);
+    }
+    .highlight > .copy-to-clipboard:hover {
+      @include translateY(-0.1rem);
+    }
 
     blockquote {
-      margin: 0 1.75rem 1.75rem 1.5rem;
-      padding: 0 0 0 1.42188rem;
       font-size: 1.05rem;
-      line-height: 1.75rem;
+      line-height: 1.75;
       color: inherit;
       opacity: 0.8;
       position: relative;
-      
-      @include themify($themes) {
-          border-left: 0.32813rem solid themed("single-blockquote-border-color");
-      }
 
-      code {
+      code:not([class^=language]) {
+        padding: 3px 7px;
         margin: 0 0.25rem;
+        @include themify($codeblock) {
+          color: themed('content-code-color');
+        }
       }
     }
 
@@ -199,8 +299,12 @@
       margin: 0 0 1.75rem 0;
       padding: 0;      
 
-      code {
+      code:not([class^=language]) {
+        padding: 3px 7px;
         margin: 0 0.25rem;
+        @include themify($codeblock) {
+          color: themed('content-code-color');
+        }
       }
     }
 
@@ -211,12 +315,51 @@
       list-style: disc outside none;
     }
 
+    &[data-dir="rtl"] {
+      li {
+        margin-right: 2rem;
+      }
+
+      blockquote {
+        margin: 0 1.5rem 1.75rem 1.75rem;
+        padding: 0 1.42188rem 0 0;
+
+        @include themify($themes) {
+          border-right: 0.32813rem solid themed("single-blockquote-border-color");
+        }
+      }
+    }
+
+    &[data-dir="ltr"] {
+      li {
+        margin-left: 2rem;
+      }
+
+      blockquote {
+        margin: 0 1.75rem 1.75rem 1.5rem;
+        padding: 0 0 0 1.42188rem;
+
+        @include themify($themes) {
+          border-left: 0.32813rem solid themed("single-blockquote-border-color");
+        }
+      }
+    }
+
     li {
-      margin-left: 2rem;
       margin-bottom: calc(1rem / 2);
 
-      code {
-        margin: 0 0.25rem;
+      & > code {
+        padding: 2px 7px;
+      }
+
+      code:not([class^=language]) {
+        @include themify($codeblock) {
+          color: themed('content-code-color');
+        }
+      }
+
+      p {
+        margin-bottom: 0.5rem;
       }
     }
 
@@ -267,7 +410,7 @@
         box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.125);
 
         
-        @include themify($themes) {
+        @include themify($codeblock) {
           thead {
             background: themed('content-pre-header-background-color');
           }
@@ -277,33 +420,28 @@
           }
 
           th, td {
-            padding: 5px 15px;
-            font-size: 0.9rem;
+            padding: 0.25rem 0.5rem;
             border: 1px double themed('content-pre-border-background-color');
-          }
-
-          tr:hover {
-            background-color: themed('content-pre-header-background-color');
           }
         }
       }
 
-      code {
+      code:not([class^=language]) {
+        padding: 3px 7px;
         margin: 0 0.25rem;
+        @include themify($codeblock) {
+          color: themed('content-code-color');
+        }
       }
     }
   }
 
   &__tags {
-    margin: 0 0.5rem;
     list-style-type: none;
     @include flexbox();
     @include align-items(center);
     @include flex-wrap(wrap);
-
-    @include respond-to(sm) {
-      margin: 0;
-    }
+    @include flex-grow(1);
   }
 
   &__tag {
@@ -313,33 +451,52 @@
 
 code, pre {  
   padding: .5rem 0;
-  line-height: 1.5em;
-  font-size: $code-font-size;
+  line-height: 1.5;
+  font-size: 13.8px;
   font-family: $code-font-stack;
-  position: relative;
-  
-  @include themify($themes) {
-    background: themed('content-pre-background-color');
-  }
+  overflow: auto;
 
   a {
     text-decoration: none !important;
   }
 }
 
-code {  
-  padding: 3px 5px;  
+*:not(.chroma) {
+  code, pre {
+    @include themify($codeblock) {
+      color: themed('content-pre-color');
+      background: themed('content-pre-background-color');
+    }
+  }
+
+  code {
+    padding: 0;
+  }
+}
+
+code:not([class^=language]) {  
+  padding: 3px 0;
   border-radius: 4px;
+  @include themify($codeblock) {
+    color: themed('content-code-color');
+  }
 }
 
 pre:not(.chroma) {
   overflow: auto;
 }
 
-.single__contents > .language-code {
+.single__contents > .language-code, li > .language-code {
   overflow-x: auto;
   position: relative;
-  margin: 1em 0;
+  margin: 1rem 0;
+  direction: ltr;
+
+  @include on-event {
+    .copy-to-clipboard {
+      opacity: 1;
+    }
+  }
 
   &::after {
     position: absolute;
@@ -347,16 +504,26 @@ pre:not(.chroma) {
     right: 0;
     left: 0;
     padding: 2px 7px;
-    font-size: $code-font-size;
-    font-family: $title-font;
-    font-weight: bold;
+    width: 100%;
+    height: 30px;
+    z-index: z('toc');
     border-top-left-radius: 0.25rem;
     border-top-right-radius: 0.25rem;
-    content: attr(data-lang);
+    content: '';
 
-    @include themify($themes) {
+    @include themify($codeblock) {
         color: themed('content-pre-header-color');
         background: themed('content-pre-header-background-color');
+    }
+  }
+}
+
+.highlight {
+  position: relative;
+
+  @include on-event {
+    .copy-to-clipboard {
+      opacity: 1;
     }
   }
 }
@@ -365,55 +532,40 @@ pre:not(.chroma) {
   margin: 1em 0;
   border-radius: 5px;
   box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
-  position: relative;
+  z-index: z('content');
   overflow-x: auto;
+  direction: ltr;
+  position: relative;
 
-  @include themify($themes) {
+  @include themify($codeblock) {
     color: themed('content-pre-color');
     background: themed('content-pre-background-color');
   }
 
   code {
-    padding: 0;    
+    padding: 0;
   }
+  
+  code[data-lang] {
+    &::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: z('grid');
+      padding: 2px 7px;
+      width: 100%;
+      height: 30px;
+      line-height: 1.9;
+      font-size: 13.8px;
+      font-family: $title-font;
+      font-weight: bold;
+      display: inline-block;
+      text-transform: capitalize;      
+      content: attr(data-lang);
 
-  &::after {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    padding: 2px 7px;
-    font-size: $code-font-size;
-    font-family: $title-font;
-    font-weight: bold;
-    @include themify($themes) {
-      color: themed('content-pre-header-color');
-      background: themed('content-pre-header-background-color');
-    }
-    content: attr(data-lang);
-  }
-
-  .lntd {
-    // Fix code block null line height and
-    // Synchronous gutter and code line highly.
-    line-height: round($code-font-size * 1.5);
-
-    &:first-child {
-      width: 10px;
-
-      pre {
-        margin: 0;
-        padding: 34px 4px 6px;
-      }
-    }
-
-    &:last-child {
-      vertical-align: top;
-      position: relative;
-
-      pre {
-        margin: 0;
-        padding: 34px 4px 6px;
+      @include themify($codeblock) {
+        color: themed('content-pre-header-color');
+        background: themed('content-pre-header-background-color');
       }
     }
   }
@@ -425,10 +577,62 @@ pre:not(.chroma) {
     border-collapse: collapse;
   }
 
+  .lntd {
+    &:first-child {
+      width: 10px;
+      @include no-select;
+
+      pre {
+        margin: 0;
+        padding: 34px 4px 6px;
+      }
+    }
+
+    &:last-child {
+      vertical-align: top;
+
+      pre {
+        margin: 0;
+        padding: 34px 4px 6px;
+      }
+    }
+  }
+
   /* LineNumbersTable */  
   .lnt {
-    @include themify($themes) {
+    @include themify($codeblock) {
       color: themed('content-pre-number-color');
+    }
+  }
+
+  table.lntable {
+    overflow-x: auto;
+    @include themify($themes) {
+      @include webkit-scrollbars(themed('custom-scrollbar-foreground-color'), themed('custom-scrollbar-background-color'));
+      @include moz-scrollbars(themed('custom-scrollbar-foreground-color'), themed('custom-scrollbar-background-color'));
+    }
+  }
+}
+
+li .highlight > .chroma {
+  .lnt:first-child {
+    padding: 0 0.3rem;
+  }
+  .lnt:not(:first-child) {
+    padding: 0 0.3rem;
+  }
+}
+
+td:not(.lntd) {
+  code {
+    padding: 2px 7px !important;
+  }
+}
+
+table:not(.lntable) {
+  td {
+    code {
+      padding: 2px 7px !important;
     }
   }
 }

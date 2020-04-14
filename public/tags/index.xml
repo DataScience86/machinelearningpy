@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Tags on Machine Learnig Py</title>
     <link>/tags/</link>
@@ -15,14 +20,24 @@
     
     
     
+
       
       <item>
         <title>Anomaly</title>
         <link>/tags/anomaly/</link>
         <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
         <author>Will update soon (Mohit Sharma)</author>
+        
         <guid>/tags/anomaly/</guid>
         <description></description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
       <item>
@@ -30,8 +45,17 @@
         <link>/tags/cooks-distance/</link>
         <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
         <author>Will update soon (Mohit Sharma)</author>
+        
         <guid>/tags/cooks-distance/</guid>
         <description></description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
       <item>
@@ -39,8 +63,17 @@
         <link>/tags/dbscan/</link>
         <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
         <author>Will update soon (Mohit Sharma)</author>
+        
         <guid>/tags/dbscan/</guid>
         <description></description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
       <item>
@@ -48,8 +81,17 @@
         <link>/tags/isolationforest/</link>
         <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
         <author>Will update soon (Mohit Sharma)</author>
+        
         <guid>/tags/isolationforest/</guid>
         <description></description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
       <item>
@@ -57,8 +99,17 @@
         <link>/tags/multivariate/</link>
         <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
         <author>Will update soon (Mohit Sharma)</author>
+        
         <guid>/tags/multivariate/</guid>
         <description></description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
       <item>
@@ -66,8 +117,17 @@
         <link>/tags/outlier/</link>
         <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
         <author>Will update soon (Mohit Sharma)</author>
+        
         <guid>/tags/outlier/</guid>
         <description></description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
       <item>
@@ -75,8 +135,17 @@
         <link>/tags/python/</link>
         <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
         <author>Will update soon (Mohit Sharma)</author>
+        
         <guid>/tags/python/</guid>
         <description></description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
       <item>
@@ -84,8 +153,17 @@
         <link>/tags/univariate/</link>
         <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
         <author>Will update soon (Mohit Sharma)</author>
+        
         <guid>/tags/univariate/</guid>
         <description></description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
       <item>
@@ -93,8 +171,17 @@
         <link>/tags/data-preparation/</link>
         <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
         <author>Will update soon (Mohit Sharma)</author>
+        
         <guid>/tags/data-preparation/</guid>
         <description></description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
       <item>
@@ -102,8 +189,17 @@
         <link>/tags/dimentionality-reduction/</link>
         <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
         <author>Will update soon (Mohit Sharma)</author>
+        
         <guid>/tags/dimentionality-reduction/</guid>
         <description></description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
       <item>
@@ -111,8 +207,17 @@
         <link>/tags/face-detection/</link>
         <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
         <author>Will update soon (Mohit Sharma)</author>
+        
         <guid>/tags/face-detection/</guid>
         <description></description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
       <item>
@@ -120,8 +225,17 @@
         <link>/tags/feature-extraction/</link>
         <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
         <author>Will update soon (Mohit Sharma)</author>
+        
         <guid>/tags/feature-extraction/</guid>
         <description></description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
       <item>
@@ -129,8 +243,17 @@
         <link>/tags/imbalanced-data/</link>
         <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
         <author>Will update soon (Mohit Sharma)</author>
+        
         <guid>/tags/imbalanced-data/</guid>
         <description></description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
       <item>
@@ -138,8 +261,17 @@
         <link>/tags/nlp/</link>
         <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
         <author>Will update soon (Mohit Sharma)</author>
+        
         <guid>/tags/nlp/</guid>
         <description></description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
       <item>
@@ -147,8 +279,17 @@
         <link>/tags/nmf/</link>
         <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
         <author>Will update soon (Mohit Sharma)</author>
+        
         <guid>/tags/nmf/</guid>
         <description></description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
       <item>
@@ -156,8 +297,17 @@
         <link>/tags/nmf-clustering/</link>
         <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
         <author>Will update soon (Mohit Sharma)</author>
+        
         <guid>/tags/nmf-clustering/</guid>
         <description></description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
       <item>
@@ -165,8 +315,17 @@
         <link>/tags/non-negative-matrix-factorization/</link>
         <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
         <author>Will update soon (Mohit Sharma)</author>
+        
         <guid>/tags/non-negative-matrix-factorization/</guid>
         <description></description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
       <item>
@@ -174,8 +333,17 @@
         <link>/tags/note/</link>
         <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
         <author>Will update soon (Mohit Sharma)</author>
+        
         <guid>/tags/note/</guid>
         <description></description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
       <item>
@@ -183,8 +351,17 @@
         <link>/tags/recommender-systems/</link>
         <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
         <author>Will update soon (Mohit Sharma)</author>
+        
         <guid>/tags/recommender-systems/</guid>
         <description></description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
       <item>
@@ -192,8 +369,17 @@
         <link>/tags/smote/</link>
         <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
         <author>Will update soon (Mohit Sharma)</author>
+        
         <guid>/tags/smote/</guid>
         <description></description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
       <item>
@@ -201,8 +387,17 @@
         <link>/tags/topic-modeling/</link>
         <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
         <author>Will update soon (Mohit Sharma)</author>
+        
         <guid>/tags/topic-modeling/</guid>
         <description></description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
       <item>
@@ -210,8 +405,17 @@
         <link>/tags/upsampling/</link>
         <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
         <author>Will update soon (Mohit Sharma)</author>
+        
         <guid>/tags/upsampling/</guid>
         <description></description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
       <item>
@@ -219,8 +423,17 @@
         <link>/tags/global-variable/</link>
         <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
         <author>Will update soon (Mohit Sharma)</author>
+        
         <guid>/tags/global-variable/</guid>
         <description></description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
       <item>
@@ -228,8 +441,17 @@
         <link>/tags/local-variable/</link>
         <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
         <author>Will update soon (Mohit Sharma)</author>
+        
         <guid>/tags/local-variable/</guid>
         <description></description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
       <item>
@@ -237,8 +459,17 @@
         <link>/tags/exploratory-data-analysis/</link>
         <pubDate>Fri, 06 Dec 2019 00:00:00 +0000</pubDate>
         <author>Will update soon (Mohit Sharma)</author>
+        
         <guid>/tags/exploratory-data-analysis/</guid>
         <description></description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
       <item>
@@ -246,8 +477,17 @@
         <link>/tags/graph/</link>
         <pubDate>Fri, 06 Dec 2019 00:00:00 +0000</pubDate>
         <author>Will update soon (Mohit Sharma)</author>
+        
         <guid>/tags/graph/</guid>
         <description></description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
       <item>
@@ -255,8 +495,17 @@
         <link>/tags/plot/</link>
         <pubDate>Fri, 06 Dec 2019 00:00:00 +0000</pubDate>
         <author>Will update soon (Mohit Sharma)</author>
+        
         <guid>/tags/plot/</guid>
         <description></description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
       <item>
@@ -264,8 +513,17 @@
         <link>/tags/python-beginners-tutorial/</link>
         <pubDate>Fri, 06 Dec 2019 00:00:00 +0000</pubDate>
         <author>Will update soon (Mohit Sharma)</author>
+        
         <guid>/tags/python-beginners-tutorial/</guid>
         <description></description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
       <item>
@@ -273,8 +531,17 @@
         <link>/tags/seaborn/</link>
         <pubDate>Fri, 06 Dec 2019 00:00:00 +0000</pubDate>
         <author>Will update soon (Mohit Sharma)</author>
+        
         <guid>/tags/seaborn/</guid>
         <description></description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
       <item>
@@ -282,10 +549,38 @@
         <link>/tags/tutorial/</link>
         <pubDate>Fri, 06 Dec 2019 00:00:00 +0000</pubDate>
         <author>Will update soon (Mohit Sharma)</author>
+        
         <guid>/tags/tutorial/</guid>
         <description></description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        
+        
+        
+        
+        
       </item>
       
+      <item>
+        <title>index</title>
+        <link>/tags/index/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        
+        <guid>/tags/index/</guid>
+        <description></description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+
     
   </channel>
 </rss>

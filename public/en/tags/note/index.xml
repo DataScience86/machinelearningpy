@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Note on Machine Learnig Py</title>
+    <link>/en/tags/note/</link>
+    <description>Recent content in Note on Machine Learnig Py</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>will update soon (Mohit Sharma)</managingEditor>
+    <webMaster>will update soon (Mohit Sharma)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sun, 15 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="/en/tags/note/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>SMOTE for dealing with imbalanced dataset</title>
+        <link>/en/notes/smote-dealing-imbalanced-data/</link>
+        <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+        <author>will update soon (Mohit Sharma)</author>
+        <atom:modified>Sun, 15 Dec 2019 00:00:00 +0000</atom:modified>
+        <guid>/en/notes/smote-dealing-imbalanced-data/</guid>
+        <description>It is generally not a good idea to train a Machine Learning algorithm when one of the class dominates the other. It is advisable to upsample the minority class or downsample the majority class. Synthetic Minority Over-sampling Technique (SMOTE) is one such algorithm that can be used to upsample the minority class.
+When to use SMOTE Machine Learning algorithms find it challenging to learn the patterns if the examples from one of the classes are limited.</description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        <media:content url="/image/notesfeatureimg/smote.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+          
+            
+              <category>Python</category>
+            
+          
+            
+              <category>Note</category>
+            
+          
+            
+              <category>SMOTE</category>
+            
+          
+            
+              <category>Imbalanced data</category>
+            
+          
+            
+              <category>Data preparation</category>
+            
+          
+            
+              <category>Upsampling</category>
+            
+          
+        
+        
+          
+            
+              <category>Python</category>
+            
+          
+            
+              <category>Statistics</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Scope of Variables</title>
+        <link>/en/notes/variable-scoping/</link>
+        <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+        <author>will update soon (Mohit Sharma)</author>
+        <atom:modified>Sun, 08 Dec 2019 00:00:00 +0000</atom:modified>
+        <guid>/en/notes/variable-scoping/</guid>
+        <description>Scope in computer programming language means the visibility of variables. It is the scope that defines which part of the program can use/see the variable. In general, a variable, once defined, can be accessed from any part of the code. However, sometimes, we would like to restrict the use of the variable to a specific section of the code. Programmers may want to do this to avoid unexpected errors.
+For example, you may like to limit the scope of a variable to a specific function.</description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        <media:content url="/image/notesfeatureimg/variablescope.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+          
+            
+              <category>Python</category>
+            
+          
+            
+              <category>Note</category>
+            
+          
+            
+              <category>Global variable</category>
+            
+          
+            
+              <category>Local Variable</category>
+            
+          
+        
+        
+          
+            
+              <category>Python</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

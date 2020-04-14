@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Python Beginners Tutorial on Machine Learnig Py</title>
+    <link>/en/tags/python-beginners-tutorial/</link>
+    <description>Recent content in Python Beginners Tutorial on Machine Learnig Py</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>will update soon (Mohit Sharma)</managingEditor>
+    <webMaster>will update soon (Mohit Sharma)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 06 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="/en/tags/python-beginners-tutorial/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>Python Programming Tutorial</title>
+        <link>/en/posts/python-programming-tutorial/</link>
+        <pubDate>Fri, 06 Dec 2019 00:00:00 +0000</pubDate>
+        <author>will update soon (Mohit Sharma)</author>
+        <atom:modified>Fri, 06 Dec 2019 00:00:00 +0000</atom:modified>
+        <guid>/en/posts/python-programming-tutorial/</guid>
+        <description>&lt;p&gt;&lt;strong&gt;Python&lt;/strong&gt; is a powerful and versatile programming language. It is easy to understand and learn. Today, the python programming language is widely used in the industry. Some of the applications of python programming include Web Development, Robotics, 3D CAD Applications, &lt;strong&gt;Data Analysis, Face Detection, Machine Learning, and Artificial Intelligence&lt;/strong&gt;. In this tutorial, we will cover all the fundamental building blocks of Python!&lt;/p&gt;</description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        <media:content url="/image/postfeatureimg/python.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+          
+            
+              <category>Python</category>
+            
+          
+            
+              <category>Tutorial</category>
+            
+          
+            
+              <category>Python Beginners Tutorial</category>
+            
+          
+        
+        
+          
+            
+              <category>Python</category>
+            
+          
+            
+              <category>Programming</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

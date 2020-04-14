@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>index on Machine Learnig Py</title>
+    <link>/tags/index/</link>
+    <description>Recent content in index on Machine Learnig Py</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>Will update soon (Mohit Sharma)</managingEditor>
+    <webMaster>Will update soon (Mohit Sharma)</webMaster>
+    <copyright>&amp;copy; Copyright by Machine Learning Py {year}, All Rights Reserved</copyright>
+    
+        <atom:link href="/tags/index/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>Posts</title>
+        <link>/posts/</link>
+        <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        
+        <guid>/posts/</guid>
+        <description></description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>index</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Quick Notes</title>
+        <link>/notes/</link>
+        <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+        <author>Will update soon (Mohit Sharma)</author>
+        
+        <guid>/notes/</guid>
+        <description></description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>index</category>
+            
+          
+        
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

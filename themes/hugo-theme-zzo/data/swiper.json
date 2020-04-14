@@ -1,11 +1,8 @@
 {
-  "direction": "horizontal",
-  "loop": true,
-  "preventClicks": false,
-  "pagination": {
-    "el": ".swiper-pagination"
+  "option1": {
+    "loop": true
   },
-    "autoplay": {
-      "delay": 10000
+  "option2": {
+    "loop": false
   }
 }

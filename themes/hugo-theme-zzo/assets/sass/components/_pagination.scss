@@ -24,6 +24,7 @@
     }
     
     &.active {
+      font-weight: bold;
       a {
         @include themify($themes) {
           color: themed('link-hover');
@@ -53,7 +54,7 @@
 .pagination-single {
   @include flexbox();
   @include align-items(center);
-  @include justify-content(center);
+  @include justify-content(flex-end);
   @include flex-wrap(wrap);
   width: 100%;
   margin: 1rem 0;
@@ -66,11 +67,11 @@
     @include justify-content(center);
     @include transition(all, 0.2s, ease-out);
     
+    font-family: $title-font;
     padding: 0.25rem;
     border-radius: 0.125rem;
     &-title {
       font-size: 16.8px;
-      padding-bottom: 0.3rem;
       @include truncate($grid_max_width + $grid_max_unit);
     }
 
@@ -93,7 +94,7 @@
   &__right {
     @include on-event {
       @include translateX(0.25rem);
-    }    
+    }
   }
 
   &__icon {

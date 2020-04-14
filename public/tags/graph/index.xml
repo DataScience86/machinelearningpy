@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Graph on Machine Learnig Py</title>
     <link>/tags/graph/</link>
@@ -15,16 +20,63 @@
     
     
     
+
       
       <item>
         <title>A Step By Step Seaborn Tutorial</title>
         <link>/posts/seaborn-tutorial/</link>
         <pubDate>Fri, 06 Dec 2019 00:00:00 +0000</pubDate>
         <author>Will update soon (Mohit Sharma)</author>
+        <atom:modified>Fri, 06 Dec 2019 00:00:00 +0000</atom:modified>
         <guid>/posts/seaborn-tutorial/</guid>
         <description>Introduction To Seaborn Seaborn is a python library which is built on top of matplotlib package. The package is also closely integrated with pandas data structure. Seaborn functions aim to make exploring and data understanding easy through visualization. The functions provided in seaborn can work on data frames and arrays. While building graphs the functions can internally perform statistical aggregations and generate informative graphs. In this article, we will leanr how to draw different types of charts using seaborn library in Python.</description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        <media:content url="/image/postfeatureimg/python.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+          
+            
+              <category>Python</category>
+            
+          
+            
+              <category>Tutorial</category>
+            
+          
+            
+              <category>Seaborn</category>
+            
+          
+            
+              <category>Exploratory data analysis</category>
+            
+          
+            
+              <category>Plot</category>
+            
+          
+            
+              <category>Graph</category>
+            
+          
+        
+        
+          
+            
+              <category>Python</category>
+            
+          
+            
+              <category>Visualization</category>
+            
+          
+        
+        
       </item>
       
+
     
   </channel>
 </rss>

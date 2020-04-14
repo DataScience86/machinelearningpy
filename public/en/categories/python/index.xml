@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Python on Machine Learnig Py</title>
+    <link>/en/categories/python/</link>
+    <description>Recent content in Python on Machine Learnig Py</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>will update soon (Mohit Sharma)</managingEditor>
+    <webMaster>will update soon (Mohit Sharma)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 20 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="/en/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>How to identify Anomalies/Outliers in Python</title>
+        <link>/en/posts/outlier-anomaly-detection/</link>
+        <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
+        <author>will update soon (Mohit Sharma)</author>
+        <atom:modified>Fri, 20 Dec 2019 00:00:00 +0000</atom:modified>
+        <guid>/en/posts/outlier-anomaly-detection/</guid>
+        <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Data objects or points which exhibit very different behavior than the expectations are called as &lt;strong&gt;outliers or anomalies&lt;/strong&gt;. They can indicate variability in the measurement, an error in the collection, a new point(due to some changes), or it could be true, which happens to be away from most of the observations.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Detecting and treating outliers is an important part of data exploration.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        <media:content url="/image/notesfeatureimg/outlier-detection-anomaly.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+          
+            
+              <category>Python</category>
+            
+          
+            
+              <category>Outlier</category>
+            
+          
+            
+              <category>Anomaly</category>
+            
+          
+            
+              <category>Multivariate</category>
+            
+          
+            
+              <category>Univariate</category>
+            
+          
+            
+              <category>DBSCAN</category>
+            
+          
+            
+              <category>IsolationForest</category>
+            
+          
+            
+              <category>Cooks Distance</category>
+            
+          
+        
+        
+          
+            
+              <category>Python</category>
+            
+          
+            
+              <category>Statistics</category>
+            
+          
+            
+              <category>Unsupervised Learning</category>
+            
+          
+            
+              <category>Clustering</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>SMOTE for dealing with imbalanced dataset</title>
+        <link>/en/notes/smote-dealing-imbalanced-data/</link>
+        <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+        <author>will update soon (Mohit Sharma)</author>
+        <atom:modified>Sun, 15 Dec 2019 00:00:00 +0000</atom:modified>
+        <guid>/en/notes/smote-dealing-imbalanced-data/</guid>
+        <description>It is generally not a good idea to train a Machine Learning algorithm when one of the class dominates the other. It is advisable to upsample the minority class or downsample the majority class. Synthetic Minority Over-sampling Technique (SMOTE) is one such algorithm that can be used to upsample the minority class.
+When to use SMOTE Machine Learning algorithms find it challenging to learn the patterns if the examples from one of the classes are limited.</description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        <media:content url="/image/notesfeatureimg/smote.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+          
+            
+              <category>Python</category>
+            
+          
+            
+              <category>Note</category>
+            
+          
+            
+              <category>SMOTE</category>
+            
+          
+            
+              <category>Imbalanced data</category>
+            
+          
+            
+              <category>Data preparation</category>
+            
+          
+            
+              <category>Upsampling</category>
+            
+          
+        
+        
+          
+            
+              <category>Python</category>
+            
+          
+            
+              <category>Statistics</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Scope of Variables</title>
+        <link>/en/notes/variable-scoping/</link>
+        <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+        <author>will update soon (Mohit Sharma)</author>
+        <atom:modified>Sun, 08 Dec 2019 00:00:00 +0000</atom:modified>
+        <guid>/en/notes/variable-scoping/</guid>
+        <description>Scope in computer programming language means the visibility of variables. It is the scope that defines which part of the program can use/see the variable. In general, a variable, once defined, can be accessed from any part of the code. However, sometimes, we would like to restrict the use of the variable to a specific section of the code. Programmers may want to do this to avoid unexpected errors.
+For example, you may like to limit the scope of a variable to a specific function.</description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        <media:content url="/image/notesfeatureimg/variablescope.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+          
+            
+              <category>Python</category>
+            
+          
+            
+              <category>Note</category>
+            
+          
+            
+              <category>Global variable</category>
+            
+          
+            
+              <category>Local Variable</category>
+            
+          
+        
+        
+          
+            
+              <category>Python</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>A Step By Step Seaborn Tutorial</title>
+        <link>/en/posts/seaborn-tutorial/</link>
+        <pubDate>Fri, 06 Dec 2019 00:00:00 +0000</pubDate>
+        <author>will update soon (Mohit Sharma)</author>
+        <atom:modified>Fri, 06 Dec 2019 00:00:00 +0000</atom:modified>
+        <guid>/en/posts/seaborn-tutorial/</guid>
+        <description>Introduction To Seaborn Seaborn is a python library which is built on top of matplotlib package. The package is also closely integrated with pandas data structure. Seaborn functions aim to make exploring and data understanding easy through visualization. The functions provided in seaborn can work on data frames and arrays. While building graphs the functions can internally perform statistical aggregations and generate informative graphs. In this article, we will leanr how to draw different types of charts using seaborn library in Python.</description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        <media:content url="/image/postfeatureimg/python.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+          
+            
+              <category>Python</category>
+            
+          
+            
+              <category>Tutorial</category>
+            
+          
+            
+              <category>Seaborn</category>
+            
+          
+            
+              <category>Exploratory data analysis</category>
+            
+          
+            
+              <category>Plot</category>
+            
+          
+            
+              <category>Graph</category>
+            
+          
+        
+        
+          
+            
+              <category>Python</category>
+            
+          
+            
+              <category>Visualization</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Python Programming Tutorial</title>
+        <link>/en/posts/python-programming-tutorial/</link>
+        <pubDate>Fri, 06 Dec 2019 00:00:00 +0000</pubDate>
+        <author>will update soon (Mohit Sharma)</author>
+        <atom:modified>Fri, 06 Dec 2019 00:00:00 +0000</atom:modified>
+        <guid>/en/posts/python-programming-tutorial/</guid>
+        <description>&lt;p&gt;&lt;strong&gt;Python&lt;/strong&gt; is a powerful and versatile programming language. It is easy to understand and learn. Today, the python programming language is widely used in the industry. Some of the applications of python programming include Web Development, Robotics, 3D CAD Applications, &lt;strong&gt;Data Analysis, Face Detection, Machine Learning, and Artificial Intelligence&lt;/strong&gt;. In this tutorial, we will cover all the fundamental building blocks of Python!&lt;/p&gt;</description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        <media:content url="/image/postfeatureimg/python.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+          
+            
+              <category>Python</category>
+            
+          
+            
+              <category>Tutorial</category>
+            
+          
+            
+              <category>Python Beginners Tutorial</category>
+            
+          
+        
+        
+          
+            
+              <category>Python</category>
+            
+          
+            
+              <category>Programming</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
