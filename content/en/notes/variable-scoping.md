@@ -1,21 +1,20 @@
 ---
 author: "Mohit Sharma"
 title:  "Scope of Variables"
-date: "2019-12-08"
+date: "2020-01-08"
 description: "A quick note with examples on scope of variables in Python."
 tags:
 - Python
-- Note
 - Global variable
 - Local Variable
 
-categories: 
-- Python
+categories:
+- Programming
 
 featured_image: "notesfeatureimg/variablescope.png"
 ---
 
-**Scope** in computer programming language means the visibility of variables. It is the scope that defines which part of the program can use/see the variable. In general, a variable, once defined, can be accessed from any part of the code. However, sometimes, we would like to restrict the use of the variable to a specific section of the code. Programmers may want to do this to avoid unexpected errors. 
+**Scope** in computer programming language means the visibility of variables. It is the scope that defines which part of the program can use/see the variable. In general, a variable, once defined, can be accessed from any part of the code. However, sometimes, we would like to restrict the use of the variable to a specific section of the code. Programmers may want to do this to avoid unexpected errors.
 
 For example, you may like to limit the scope of a variable to a specific function. This way, any changes introduced to the function will not impact the whole code in case something goes wrong.
 
@@ -35,7 +34,7 @@ def demo():
 demo()
 # Ouptut :- 20
 ```
-If you try to modify a global variable inside a function, Python will throw an error stating `UnboundLocalError` which indicates that the local variable was referenced before assignment. 
+If you try to modify a global variable inside a function, Python will throw an error stating `UnboundLocalError` which indicates that the local variable was referenced before assignment.
 
 ``` Python
 var = 20
@@ -46,7 +45,7 @@ def demo():
 demo()
 # Output :- UnboundLocalError: local variable 'var' referenced before assignment
 ```
-To modify the values, we need to declare the variable as using the `global` keyword. 
+To modify the values, we need to declare the variable as using the `global` keyword.
 
 ``` Python
 var = 20
@@ -71,9 +70,9 @@ print(zz)
 # Ouptut :- NameError: name 'zz' is not defined
 ```
 
-Please leave comments, if 
+Please leave comments, if
 1. You find anything incorrect.
 2. You want to add more information to the topic.
 3. You wish to add another example to the topic.
-4. You need more details in regards to a specific section. 
+4. You need more details in regards to a specific section.
 5. You are unable to execute an example code.

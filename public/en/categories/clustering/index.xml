@@ -31,9 +31,7 @@
         <guid>/en/posts/outlier-anomaly-detection/</guid>
         <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Data objects or points which exhibit very different behavior than the expectations are called as &lt;strong&gt;outliers or anomalies&lt;/strong&gt;. They can indicate variability in the measurement, an error in the collection, a new point(due to some changes), or it could be true, which happens to be away from most of the observations.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Detecting and treating outliers is an important part of data exploration.&lt;/p&gt;
-&lt;/blockquote&gt;</description>
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34; data-dir=&#34;ltr&#34;&gt;Detecting and treating outliers is an important part of data exploration.&lt;/div&gt;</description>
         
         <dc:creator>Mohit Sharma</dc:creator>
         
@@ -82,84 +80,6 @@
           
             
               <category>Statistics</category>
-            
-          
-            
-              <category>Unsupervised Learning</category>
-            
-          
-            
-              <category>Clustering</category>
-            
-          
-        
-        
-      </item>
-      
-      <item>
-        <title>Non-Negative Matrix Factorization(NMF) - With Examples in Python</title>
-        <link>/en/posts/non-negative-matirx-factorization/</link>
-        <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
-        <author>will update soon (Mohit Sharma)</author>
-        <atom:modified>Sun, 15 Dec 2019 00:00:00 +0000</atom:modified>
-        <guid>/en/posts/non-negative-matirx-factorization/</guid>
-        <description>&lt;p&gt;&lt;strong&gt;Non-Matrix Factorization&lt;/strong&gt;, aka NMF, is a widely used algorithm for the analysis of non-negative high dimensional data. The algorithm is handy in extracting meaningful features from a non-negative matrix. It was first introduced in 1994 by Paatero and Tapper. The algorithm has been long used for extracting information from chemical systems using data-driven approaches under the name * self-modeling curve resolution*. It got its name as Non-Negative Matrix Factorization after a popular article from Lee and Seung in 1999. The paper discussed *properties of the algorithm and published some simple and useful algorithms for two types of factorizations*.&lt;a href=&#34;https://en.wikipedia.org/wiki/Non-negative_matrix_factorization&#34;&gt;[&lt;sup&gt;1&lt;/sup&gt;]&lt;/a&gt;&lt;/p&gt;</description>
-        
-        <dc:creator>Mohit Sharma</dc:creator>
-        
-        <media:content url="/image/postfeatureimg/nmf-topicmodel.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-          
-            
-              <category>Python</category>
-            
-          
-            
-              <category>Topic Modeling</category>
-            
-          
-            
-              <category>NLP</category>
-            
-          
-            
-              <category>NMF</category>
-            
-          
-            
-              <category>NMF Clustering</category>
-            
-          
-            
-              <category>Recommender Systems</category>
-            
-          
-            
-              <category>Face Detection</category>
-            
-          
-            
-              <category>Feature Extraction</category>
-            
-          
-            
-              <category>Non-Negative Matrix Factorization</category>
-            
-          
-            
-              <category>Dimentionality Reduction</category>
-            
-          
-        
-        
-          
-            
-              <category>Machine Learning</category>
-            
-          
-            
-              <category>Natural Language Processing</category>
             
           
             

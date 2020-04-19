@@ -8,9 +8,9 @@ tags:
 - Tutorial
 - Python Beginners Tutorial
 
-categories: 
-- Python
+categories:
 - Programming
+- Tutorial
 
 libraries:
 - mathjax
@@ -24,15 +24,15 @@ featured_image: "postfeatureimg/python.png"
 ## History of Python
 The programming language Python was developed by [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum) in the late 1980's. However, the implementation of the language started to take place in 1989. The **version 1** of the language was released in January 1994. The primary functional tools included were `lambda`, `map`, `reduce`, and `filter`. In October 2000, version 2.0 of the programming language was released, and a year later **Python Software Foundation(PSF)**, a nonprofit organization, was also formed. The organization is devoted to advancing open source technology related to the Python programming language.
 
-**In December 2008, Python 3.0, also sometimes called Py3K or Python 3000, was released to rectify fundamental design flaws of the earlier versions**. As full backward compatibility was not possible, a parallel world of Python 3 and Python 2 started to co-exist. This also meant that the Python 3 code would not run Python 2 and vice-a-versa. 
+**In December 2008, Python 3.0, also sometimes called Py3K or Python 3000, was released to rectify fundamental design flaws of the earlier versions**. As full backward compatibility was not possible, a parallel world of Python 3 and Python 2 started to co-exist. This also meant that the Python 3 code would not run Python 2 and vice-a-versa.
 
-According to PSF, Starting January 1, 2020, the Python 2.x versions will no longer be supported. So, at machinelearningpy.com, we only use Python version 3 or simply Python 3. 
+According to PSF, Starting January 1, 2020, the Python 2.x versions will no longer be supported. So, at machinelearningpy.com, we only use Python version 3 or simply Python 3.
 <!--more-->
 
 ## Things to keep in mind
 There are a few things we should keep in mind while learning the Python programming language.
 
-1. Python places a particular emphasis on spacing. So, **Spacing is essential**. 
+1. Python places a particular emphasis on spacing. So, **Spacing is essential**.
 2. Python is a **case sensitive** language. That means **python** and **Python** are two different objects.
 
 ## Operators in Python
@@ -40,7 +40,7 @@ In programming languages, operators are used for performing operations on values
 
 - **Comparison Operators**
 - **Arithmetic Operators**
-- **Assignment Operators** 
+- **Assignment Operators**
 - **Logical Operators**
 - **Membership Operators**
 - **Identity Operators**
@@ -77,7 +77,7 @@ x <= 15
 ```
 
 ### Arithmetic Operators Python
-These operators are used to perform common mathematical operations. 
+These operators are used to perform common mathematical operations.
 
 | Operator&nbsp;&nbsp;&nbsp;     | Name&nbsp;&nbsp;&nbsp;  |
 | ---------- | --------- |
@@ -155,7 +155,7 @@ print(f"Remainder: {x}")
 ```
 
 ### Logical Operators Python
-These operators are used to perform everyday mathematical operations. 
+These operators are used to perform everyday mathematical operations.
 
 | Operator&nbsp;&nbsp;&nbsp; | Details&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                | Example&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;          |
 | ---------- | --------- | ----------------- |
@@ -215,9 +215,9 @@ print(f"is not membership operator result: {y is not x}")
 ```
 
 ### Bitwise Operators Python
-In Python, one can use bitwise operators to compare the binary numbers. As a data scientist, I have not used these operators. However, if you are interested - [Click Here](https://www.journaldev.com/26737/python-bitwise-operators) 
+In Python, one can use bitwise operators to compare the binary numbers. As a data scientist, I have not used these operators. However, if you are interested - [Click Here](https://www.journaldev.com/26737/python-bitwise-operators)
 
-## Data Types in Python 
+## Data Types in Python
 Below is the list of data types python supports. Examples of each type are also provided. In this section, we will look at some of the important functions and methods which will help you identify the data type of a variable in Python.
 
 1. **integer** (`int`) - Example: 1, 2, 3
@@ -241,7 +241,7 @@ print(type(z))
 # Output :- bool
 ```
 ### Defining Strings in Python
-To define a string in one single line one can use single `'` or double `"` quotes. 
+To define a string in one single line one can use single `'` or double `"` quotes.
 
 ``` Python
 str_ex1 = "This is an exmple string"
@@ -271,8 +271,8 @@ print(str_ex5)
 ```
 
 ### Arithmetic Functions on Strings
-Some arithmetic functions can be applied on strings. For example - 
-- `+` operator can be used to concatinate two strings. 
+Some arithmetic functions can be applied on strings. For example -
+- `+` operator can be used to concatinate two strings.
 ``` Python
 str_ex6 = "Hello"
 str_ex7 = "Reader"
@@ -294,7 +294,7 @@ print(str_ex8 * 2)
 ```
 
 ### `len()` get length of an object
-The `len()` function in Python returns total length of an object. We can use it to get the number of character in a string. 
+The `len()` function in Python returns total length of an object. We can use it to get the number of character in a string.
 ``` Python
 str_ex8 = "Apple"
 print(f"Total number of character in string are {len(str_ex8)}")
@@ -328,7 +328,7 @@ str_method_ex1 = "This is an ARTICLE from machine learning py blog."
 print("string to lower:{} ".format(str_method_ex1.lower()))
 # Output :- string to lower:  this is an article from machine learning py blog.
 print("Is string in lower:{} ".format(str_method_ex1.islower()))
-# Output :- Checking if string in lower:False 
+# Output :- Checking if string in lower:False
 print("string to upper:{} ".format(str_method_ex1.upper()))
 # Output :- string to upper:  THIS IS AN ARTICLE FROM MACHINE LEARNING PY BLOG.
 str_method_ex2 = "ALL TEXT IN CAPS"
@@ -338,10 +338,10 @@ str_method_ex3 = "I have trailing and leadning white spaces  "
 print("Striping whitespace:{} ".format(str_method_ex3.strip()))
 # Output :- Striping whitespace: I have trailing and leadning white spaces
 print("splitting string by space:{} ".format(str_method_ex2.split(" ")))
-# Output :- splitting string by space:['ALL', 'TEXT', 'IN', 'CAPS'] 
+# Output :- splitting string by space:['ALL', 'TEXT', 'IN', 'CAPS']
 str_method_ex4 = "There are couple of apples and I ate some of these apples"
 print("Count of string apples:{} ".format(str_method_ex4.count("apples")))
-# Output :- Count of string apples:2 
+# Output :- Count of string apples:2
 print("Does string ends with apples:{} ".format(str_method_ex4.endswith("apples")))
 # Output :- Does string ends with apples: True
 print("Does string ends with apples:{} ".format(str_method_ex4.startswith("apples")))
@@ -366,10 +366,10 @@ While you work on these data structures, you shall also keep in mind the followi
 
 **Mutability** here refers to whether you can change the elements of a data structure. If you can modify the data structure is called **Mutable** else, it is called **immutable**.
 
-**Ordered** refers to whether you can access the elements stored in a data structure using their position. If you can, then the data structure is called as ordered. If not, it is called as unordered. 
+**Ordered** refers to whether you can access the elements stored in a data structure using their position. If you can, then the data structure is called as ordered. If not, it is called as unordered.
 
 ### Lists in Python
-A `list` is a fundamental data structure in Python. It is also one of the most commonly used data structures. A list can contain a mix of different data types. You can create a list using the square `[]` brackets. 
+A `list` is a fundamental data structure in Python. It is also one of the most commonly used data structures. A list can contain a mix of different data types. You can create a list using the square `[]` brackets.
 
 ``` Python
 list_ex1 = [12, 13.13, "Python", True]
@@ -389,7 +389,7 @@ list_ex1[len(list_ex1) - 1]
 ```
 
 #### Slicing and Dicing List
-Slicing refers to the extraction of more than one value from a data structure. The below example shows how you can **extract more than one value from the list**. 
+Slicing refers to the extraction of more than one value from a data structure. The below example shows how you can **extract more than one value from the list**.
 
 1. **Return first three elements**
 ``` Python
@@ -420,7 +420,7 @@ list_ex1
 
 > A list is both **mutable** and **ordered**.
 
-> A `string`, on the other hand, is **immutable**. You can not change a character in a string without creating a new string. 
+> A `string`, on the other hand, is **immutable**. You can not change a character in a string without creating a new string.
 
 ``` Python
 string_ex1 = "Strings are immutable"
@@ -508,14 +508,14 @@ sorted([11,2,32,14,59,61,7,18,90,10])
 ```
 
 ### Tuples in Python
-**Tuple** is a useful data structure in Python. Unlike `list` they are **immutable** but are **ordered** container. That means once a **tuple** is defined, you cannot change the values of this data structure. **Sorting of elements inside tuples is not possible.** Often, you will use tuples to store a related piece of information. For example, you can use them to store country names and currency names, or you can use them to store information about latitude and longitude. 
+**Tuple** is a useful data structure in Python. Unlike `list` they are **immutable** but are **ordered** container. That means once a **tuple** is defined, you cannot change the values of this data structure. **Sorting of elements inside tuples is not possible.** Often, you will use tuples to store a related piece of information. For example, you can use them to store country names and currency names, or you can use them to store information about latitude and longitude.
 
 1. **How to define a tuple** - A tuple can be defined using a **parentheses**. However, it not necessary to use parentheses.
 
 ``` Python
 curreny = ("India", "INR")
 ```
-2. **Extracting values from a tuple** 
+2. **Extracting values from a tuple**
 ``` Python
 curreny[0]
 # Output :- India
@@ -553,7 +553,7 @@ set_ex1 = set([1,1,2,3,3,4,4,5,6,9,9,9])
 set_ex1
 # Output :- {1, 2, 3, 4, 5, 6, 9}
 ```
-> Some of the **list methods** can be used with **sets**. For example, you can add elements to the tuple using `add` method or you can use `pop` method to remove an element. However, it is not recommended to use `pop` as a random element is removed. Remember **sets are undordered**. 
+> Some of the **list methods** can be used with **sets**. For example, you can add elements to the tuple using `add` method or you can use `pop` method to remove an element. However, it is not recommended to use `pop` as a random element is removed. Remember **sets are undordered**.
 
 
 
@@ -587,11 +587,11 @@ set_ex2.union(set_ex3)
 ```
 
 ### Dictionaries in Python
-**Dictionaries** are interesting data structures. They store values by mapping them to a unique key. A **dictionary** is a mutable data structure. However, the keys of the data structure can be of any immutable type like tuples or integers. 
+**Dictionaries** are interesting data structures. They store values by mapping them to a unique key. A **dictionary** is a mutable data structure. However, the keys of the data structure can be of any immutable type like tuples or integers.
 
 > Keys in the dictionary do not necessarily require to have the same type!
 
-1. **Defining a dictionary in Python** - There are two ways to define a dictionary. One, you can use a `dict()` function, and second, you can use curly braces `{}`. 
+1. **Defining a dictionary in Python** - There are two ways to define a dictionary. One, you can use a `dict()` function, and second, you can use curly braces `{}`.
 
 ``` Python
 dict_ex1 = {"apple": 100, "bannana": 70, "orange": 120}
@@ -600,16 +600,16 @@ dict_ex1 = {"apple": 100, "bannana": 70, "orange": 120}
 2. **Printing the values of a specific key** - You can use square `[]` brackets enclosing the key for which you need to access the value.
 ``` Python
 dict_ex1["apple"]
-# Output :-  100 
+# Output :-  100
 ```
-3. **Re-assign the values of a specific key** 
+3. **Re-assign the values of a specific key**
 ``` Python
 dict_ex1["apple"] = 150
 dict_ex1["apple"]
 # Output :-  150
 ```
 
-4. **Check if a key exists in dictionary** - You can use `in` identity 
+4. **Check if a key exists in dictionary** - You can use `in` identity
 ``` Python
 print("orange" in dict_ex1)
 # Output :-  True
@@ -643,7 +643,7 @@ dict_ex2.values()
 # Output :- dict_values([100, 70, 120, 200])
 ```
 ### Compound Structures
-**Compound Strutures** come into existence when we include a data structure inside another data structure. For example, nested dictionaries which contains dictionary inside a dictionary fall under **compound structures**. 
+**Compound Strutures** come into existence when we include a data structure inside another data structure. For example, nested dictionaries which contains dictionary inside a dictionary fall under **compound structures**.
 
 ``` Python
 nutrition = {"apple": {"kcal": 52,
@@ -683,7 +683,7 @@ The logic building tools can be further divided into the following.
 2. **While and For Loops**
 3. **Break and Continue**
 
-> Comparision and Logical statements are extensively used while building logic to your code. 
+> Comparision and Logical statements are extensively used while building logic to your code.
 
 ### Conditional Statements Python
 As part of **Conditional Statements**, Python provides the following two options.
@@ -696,14 +696,14 @@ x = 20
 if x > 10:
   print(x)
 ```
-**One line Representation** 
+**One line Representation**
 ``` Python
 x = 20
 if x > 10: print(x)
 ```
 
 
-#### IF, Elif, ELSE 
+#### IF, Elif, ELSE
 Sometimes you may also want to take action if the condition is not met(it's a good practice use else). At other times you may be interested in checking multiple conditions, and based on each one, a different action is required.
 
 ``` Python
@@ -774,7 +774,7 @@ nutrition = {"apple": 52,
              "milk": 1.1,
              "beacon": 23,
              "meat": 0.3}
-                         
+
 for food in nutrition:
   print(food)
 ```
@@ -801,24 +801,24 @@ nutrition = {"apple": 52,
              "milk": 1.1,
              "beacon": 23,
              "meat": 0.3}
-                         
+
 for key, value in nutrition.items():
   print(f"Food Name: {key}, Nutrition Value: {value} ")
 ```
 ``` Markdown
 # Output
-Food Name: apple, Nutrition Value: 52 
-Food Name: lemon, Nutrition Value: 0.83 
-Food Name: mango, Nutrition Value: 13.8 
-Food Name: egg, Nutrition Value: 0.2 
-Food Name: banana, Nutrition Value: 89 
-Food Name: milk, Nutrition Value: 1.1 
-Food Name: beacon, Nutrition Value: 23 
-Food Name: meat, Nutrition Value: 0.3 
+Food Name: apple, Nutrition Value: 52
+Food Name: lemon, Nutrition Value: 0.83
+Food Name: mango, Nutrition Value: 13.8
+Food Name: egg, Nutrition Value: 0.2
+Food Name: banana, Nutrition Value: 89
+Food Name: milk, Nutrition Value: 1.1
+Food Name: beacon, Nutrition Value: 23
+Food Name: meat, Nutrition Value: 0.3
 ```
 
 ### Break and Continue in Python
-Many times your logic will require the iteration to end or skip a value when a specific condition is met. In such cases, keywords like `break` and `continue` will help you out. 
+Many times your logic will require the iteration to end or skip a value when a specific condition is met. In such cases, keywords like `break` and `continue` will help you out.
 - `break` can terminate a loop as soon as a specific condition is met.
 
 ``` Python
@@ -883,7 +883,7 @@ Name is Tango, and Weight is 100
 ```
 
 #### enumerate function in python
-`enumerate` function is somewhat similar to `zip` function. However, instead of combining two different iterables, the function combines an iterable with the indices. 
+`enumerate` function is somewhat similar to `zip` function. However, instead of combining two different iterables, the function combines an iterable with the indices.
 ``` Python
 names = ["Bob", "Roxana", "Charlie", "Tango"]
 
@@ -908,24 +908,24 @@ For example - the below function returns the whole square of A + B using the fol
 ``` Python
 def whole_square(a = 1, b = 1):
   return((a*a) + (b*b) + 2*a*b)
-  
+
 whole_square(4, 6)
 # Output :- 100
 ````
-A function definition includes the following important parts. 
+A function definition includes the following important parts.
 
 1. The **def** keyword - It indicates it is a function.
-2. **Function name** - This is the name of the function. 
+2. **Function name** - This is the name of the function.
 3. **Arguments** - A function can have as many arguments as possible. All arguments are passed as inputs to the function and are used with the function call. You need to mention them inside the *parentheses*.
 
 Note- it is not necessary to pass arguments one can write a function without inputs.  
 
-4. **Body** - The block of code after the `:` is referred to as a body. You can refer to the argument variables or can define new variables inside the body. 
+4. **Body** - The block of code after the `:` is referred to as a body. You can refer to the argument variables or can define new variables inside the body.
 
-5. **return** - The body often ends with the `return` statement. The keyword is followed by an expression that is evaluated to get the output. The function with no `return` statement returns `None`. 
+5. **return** - The body often ends with the `return` statement. The keyword is followed by an expression that is evaluated to get the output. The function with no `return` statement returns `None`.
 
 ### Example #2 Anonymous Functions Python
-A **lambda expression** can be used to define an **anonymous function** in Python. This function is called anonymous because there is no name. You can use **lambda function** if you don't need them again and again. 
+A **lambda expression** can be used to define an **anonymous function** in Python. This function is called anonymous because there is no name. You can use **lambda function** if you don't need them again and again.
 
 The above whole_square function can be reduced to lambda function as given below:
 
@@ -934,7 +934,7 @@ whole_square = lambda x, y: x * x + y * y + 2*x*y
 whole_square(4,6)
 ```
 ### Example #3 Documentation Strings in Python
-To ensure that your function is readable, it is important that you provide documentation of your code. Documented code is easier to use and understand. Python provides docstrings specifically for documentation purposes. 
+To ensure that your function is readable, it is important that you provide documentation of your code. Documented code is easier to use and understand. Python provides docstrings specifically for documentation purposes.
 
 A docstring or document string is nothing more than a comment which is mentioned using Tripple `"""`.
 
@@ -959,7 +959,7 @@ As a programmer, one is likely to make mistakes. These mistakes in Python can be
 
 2. **Exceptions** - Even if your code is syntactically correct, some unexpected things can prevent your code from executing. All such cases fall under exceptions. Python provides a collection of different in-built exceptions. They help in understanding the underlying problem, which is preventing code from executing.
 
-As Errors and Exceptions are not good, you need to understand how to handle them. 
+As Errors and Exceptions are not good, you need to understand how to handle them.
 
 ### Handling Errors and Exceptions Python
 To handle exceptions in Python, you can make use of the `try` statement. The `try` statement evaluates a block of code, and if it encounters an exception, it jumps to the `except` block. We can also mention what should happen if no exception is found in the `else` block. Finally, after executing the `try`, `else` or ` except` blocks, the code runs the final block called `finally`.
@@ -974,7 +974,7 @@ while True:
       print("x is not an integer")
   else:
       x += 1
-      print(f"printing updated {x}") 
+      print(f"printing updated {x}")
   finally:
       print("This is an example covering all the block")
 ```
@@ -1050,7 +1050,7 @@ file.close()
 ### Example #2 Writing Text File Python
 The steps involved in writing the text file are also very similar.
 
-1. You need to open the file in writing mode. If the file does not exist, don't worry, Python will create one for you. 
+1. You need to open the file in writing mode. If the file does not exist, don't worry, Python will create one for you.
 2. Use a writing mode to write the content to the file.
 3. Close the connection.
 ``` Python
@@ -1066,9 +1066,9 @@ with open('/data/MartinLutherKing.txt', 'r') as file:
     dream_speech = file.read()
 ```
 ## Loading Local and Third-Party Libraries
-Python comes with many useful built-in functions and methods.  There are also a huge number of third-party libraries. These libraries need to be installed and loaded into your session to access the specific functions. 
+Python comes with many useful built-in functions and methods.  There are also a huge number of third-party libraries. These libraries need to be installed and loaded into your session to access the specific functions.
 
-You can also load local scripts into your current session. This is mostly required while working on larger projects. For larger projects, it is advised to split your code into multiple scripts to organize them better. For example, one can list all user-defined functions in one script. 
+You can also load local scripts into your current session. This is mostly required while working on larger projects. For larger projects, it is advised to split your code into multiple scripts to organize them better. For example, one can list all user-defined functions in one script.
 
 ### Example #1 Importing Local Scripts Python
 If the current script and the script you wish to load are in the same folder, then you can use `import` followed by the script name to load the contents of the script.
@@ -1083,7 +1083,7 @@ import project_functions_list as pft
 ```
 
 ### Example #2 Importing Third Party libraries
-There are thousands of third-party libraries written by individuals. To install these libraries, you can `pip` a package manager for Python 3. `pip` is the standard package manager for the Python, but it is not the only one. For example, Anaconda, which is specifically designed for`data science`, has its own package manager named `conda`. 
+There are thousands of third-party libraries written by individuals. To install these libraries, you can `pip` a package manager for Python 3. `pip` is the standard package manager for the Python, but it is not the only one. For example, Anaconda, which is specifically designed for`data science`, has its own package manager named `conda`.
 
 1. To install packages - `pip install package_name`
 2. To install packages from Jupiter notebook - `! pip install package_name`.
@@ -1107,11 +1107,9 @@ np.sum([22,123,65, 9, 12])
 ### Best Practice:
 It is best to define variables in the limited scope based upon the usage. It is rarely a good idea to define a function that can refer to a variable with a broader scope. As your code gets complicated, you may not remember or know what all variables you have defined.
 
-Please leave comments, if 
+Please leave comments, if
 1. You find anything incorrect.
 2. You want to add more information to the topic.
 3. You wish to add another example to the topic.
-4. You need more details in regards to a specific section. 
+4. You need more details in regards to a specific section.
 5. You are unable to execute an example code.
-
-

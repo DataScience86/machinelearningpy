@@ -14,7 +14,7 @@
     <managingEditor>will update soon (Mohit Sharma)</managingEditor>
     <webMaster>will update soon (Mohit Sharma)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 08 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jan 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/en/tags/global-variable/index.xml" rel="self" type="application/rss+xml" />
     
@@ -25,9 +25,9 @@
       <item>
         <title>Scope of Variables</title>
         <link>/en/notes/variable-scoping/</link>
-        <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
         <author>will update soon (Mohit Sharma)</author>
-        <atom:modified>Sun, 08 Dec 2019 00:00:00 +0000</atom:modified>
+        <atom:modified>Wed, 08 Jan 2020 00:00:00 +0000</atom:modified>
         <guid>/en/notes/variable-scoping/</guid>
         <description>Scope in computer programming language means the visibility of variables. It is the scope that defines which part of the program can use/see the variable. In general, a variable, once defined, can be accessed from any part of the code. However, sometimes, we would like to restrict the use of the variable to a specific section of the code. Programmers may want to do this to avoid unexpected errors.
 For example, you may like to limit the scope of a variable to a specific function.</description>
@@ -43,10 +43,6 @@ For example, you may like to limit the scope of a variable to a specific functio
             
           
             
-              <category>Note</category>
-            
-          
-            
               <category>Global variable</category>
             
           
@@ -58,7 +54,7 @@ For example, you may like to limit the scope of a variable to a specific functio
         
           
             
-              <category>Python</category>
+              <category>Programming</category>
             
           
         

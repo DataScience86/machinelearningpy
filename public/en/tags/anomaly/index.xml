@@ -31,9 +31,7 @@
         <guid>/en/posts/outlier-anomaly-detection/</guid>
         <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Data objects or points which exhibit very different behavior than the expectations are called as &lt;strong&gt;outliers or anomalies&lt;/strong&gt;. They can indicate variability in the measurement, an error in the collection, a new point(due to some changes), or it could be true, which happens to be away from most of the observations.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Detecting and treating outliers is an important part of data exploration.&lt;/p&gt;
-&lt;/blockquote&gt;</description>
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34; data-dir=&#34;ltr&#34;&gt;Detecting and treating outliers is an important part of data exploration.&lt;/div&gt;</description>
         
         <dc:creator>Mohit Sharma</dc:creator>
         
@@ -77,19 +75,15 @@
         
           
             
-              <category>Python</category>
-            
-          
-            
               <category>Statistics</category>
             
           
             
-              <category>Unsupervised Learning</category>
+              <category>Machine Learning</category>
             
           
             
-              <category>Clustering</category>
+              <category>Unsupervised Learning</category>
             
           
         

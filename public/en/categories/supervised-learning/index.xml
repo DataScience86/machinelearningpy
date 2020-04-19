@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Supervised Learning on Machine Learnig Py</title>
+    <link>/en/categories/supervised-learning/</link>
+    <description>Recent content in Supervised Learning on Machine Learnig Py</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>will update soon (Mohit Sharma)</managingEditor>
+    <webMaster>will update soon (Mohit Sharma)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 15 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="/en/categories/supervised-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>Non-Negative Matrix Factorization(NMF) - With Examples in Python</title>
+        <link>/en/posts/non-negative-matirx-factorization/</link>
+        <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
+        <author>will update soon (Mohit Sharma)</author>
+        <atom:modified>Sat, 15 Feb 2020 00:00:00 +0000</atom:modified>
+        <guid>/en/posts/non-negative-matirx-factorization/</guid>
+        <description>&lt;p&gt;&lt;strong&gt;Non-Matrix Factorization&lt;/strong&gt;, aka NMF, is a widely used algorithm for the analysis of non-negative high dimensional data. The algorithm is handy in extracting meaningful features from a non-negative matrix. It was first introduced in 1994 by Paatero and Tapper. The algorithm has been long used for extracting information from chemical systems using data-driven approaches under the name &lt;strong&gt;self-modeling curve resolution&lt;/strong&gt;. It got its name as Non-Negative Matrix Factorization after a popular article from Lee and Seung in 1999. The paper discussed &lt;strong&gt;properties of the algorithm and published some simple and useful algorithms for two types of factorizations&lt;/strong&gt;.&lt;a href=&#34;https://en.wikipedia.org/wiki/Non-negative_matrix_factorization&#34;&gt;[&lt;sup&gt;1&lt;/sup&gt;]&lt;/a&gt;&lt;/p&gt;</description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        <media:content url="/image/postfeatureimg/nmf-topicmodel.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+          
+            
+              <category>Python</category>
+            
+          
+            
+              <category>Topic Modeling</category>
+            
+          
+            
+              <category>NLP</category>
+            
+          
+            
+              <category>NMF</category>
+            
+          
+            
+              <category>Clustering</category>
+            
+          
+            
+              <category>Recommender Systems</category>
+            
+          
+            
+              <category>Face Detection</category>
+            
+          
+            
+              <category>Feature Extraction</category>
+            
+          
+            
+              <category>Non-Negative Matrix Factorization</category>
+            
+          
+            
+              <category>Dimensionality Reduction</category>
+            
+          
+        
+        
+          
+            
+              <category>Machine Learning</category>
+            
+          
+            
+              <category>Unsupervised Learning</category>
+            
+          
+            
+              <category>Supervised Learning</category>
+            
+          
+            
+              <category>Natural Language Processing</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

@@ -1,7 +1,7 @@
 ---
 author: "Mohit Sharma"
-title:  "A Step By Step Seaborn Tutorial"
-date: "2019-12-06"
+title:  "Complete Step By Step Seaborn Tutorial"
+date: "2020-03-14"
 description: "A complete guide on how to use Seaborn library for data visualization in python. A tool that makes exploratory data analysis easy and efficient."
 tags:
 - Python
@@ -12,9 +12,9 @@ tags:
 - Graph
 
 
-categories: 
-- Python
+categories:
 - Visualization
+- Tutorial
 
 libraries:
 - mathjax
@@ -34,7 +34,7 @@ pip install seaborn
 conda install seaborn
 # install using anaconda command line
 !pip install seaborn
-# install from jupyter notebook/spyder 
+# install from jupyter notebook/spyder
 ```
 
 Once installed use import the library using `import` function. If you want you can also give alias for easy calling of the functions from the module.
@@ -69,7 +69,7 @@ sns.palplot(sns.color_palette(palette = "pastel", n_colors = 4))
 ![Default pastel palette](/images/seaborn/pastel-4.png)
 
 ### Seaborn Choosing colors for arbitrary number of categories
-You can use `hls` or `hls_palette()` color space when you want to visualize categorical variables without emphazising on a specific category. 
+You can use `hls` or `hls_palette()` color space when you want to visualize categorical variables without emphazising on a specific category.
 
 ``` Python
 sns.palplot(sns.color_palette("hls", 5))
@@ -94,7 +94,7 @@ sns.palplot(sns.light_palette("purple", reverse=True))
 ![sequence palette](/images/seaborn/sequence.png)
 
 ### Choosing custom color palette
-`color_palette()` function makes it very easy to set your own colors as part of chart style. 
+`color_palette()` function makes it very easy to set your own colors as part of chart style.
 
 ``` Python
 custom = ["#E5C494", "#FFFFFF", "#318EFE", "#e74c3c", "#34495e"]
@@ -102,7 +102,7 @@ sns.palplot(sns.color_palette(custom))
 ```
 ![custom palette](/images/seaborn/custom.png)
 ### How to change the color palette in seaborn
-Color schemes can be changed in seaborn using `set_palette()` function. Use the blow code to set your style. 
+Color schemes can be changed in seaborn using `set_palette()` function. Use the blow code to set your style.
 ``` Python
 import seaborn as sns
 sns.set_palette("purple")
@@ -188,7 +188,7 @@ sns.scatterplot(x="total_bill", y="tip", hue="time", style="time", data=tips)
 ```
 ![group by scatter plot in seaborn - using marker](/images/seaborn/scatterplot-3.png)
 
-> In the above examples, the third variable added is categorical. But if a numerical variables is passed in`hue` argumnet then the plot either selects sequential colors or uses size to distinguish the data points on the scatter plot. 
+> In the above examples, the third variable added is categorical. But if a numerical variables is passed in`hue` argumnet then the plot either selects sequential colors or uses size to distinguish the data points on the scatter plot.
 
 #### How to create scatter plot by group variable using size
 ``` Python
@@ -211,7 +211,7 @@ sns.relplot(x="year", y="suicides_no", sort=False, kind="line", data=suicide);
 
 
 ### Example #2 Seaborn only line Chart no CI
-By default, the `relplot()` for `kind = "line"` provides the confidence interval. The light blue region in the above chart represents the confidence intervals. If you do not want these then you need to pass `ci = None` as an argumnet. 
+By default, the `relplot()` for `kind = "line"` provides the confidence interval. The light blue region in the above chart represents the confidence intervals. If you do not want these then you need to pass `ci = None` as an argumnet.
 
 ``` Python
 sns.lineplot(x="year", y="suicides/100k pop", sort=True, ci = None, data=suicide)
@@ -228,7 +228,7 @@ sns.lineplot(x="year", y="suicides/100k pop", sort=True, hue = "sex", data=suici
 
 It is evident from the above that suicides per 100k population is way much higher than the female. Although, both genders saw declining trend till 2013. However, 2015 saw a steep growth in suicide for males.
 
-### Example #3 Seaborn Multiple line Chart 
+### Example #3 Seaborn Multiple line Chart
 Let's look at one more example by plotting the above parameter by age groups.
 
 ``` Python
@@ -262,10 +262,10 @@ We will discuss and learn how to draw all the above mentioned plots in `seaborn`
 
 
 ## Seaborn - boxplot Python
-A **boxplot** visualization helps us to understand the distribution of quantitative variable across different levels of a categorical variable. The boxplots are also widely used to **identify outliers** using a method which is based on inter-quartile range. 
+A **boxplot** visualization helps us to understand the distribution of quantitative variable across different levels of a categorical variable. The boxplots are also widely used to **identify outliers** using a method which is based on inter-quartile range.
 
 ### Example #1 - Verticle boxplot seaborn
-Let's see what is the distribution of **gdp_per_capita ($)** variable looks like for different **sex** groups using the **boxplot**. 
+Let's see what is the distribution of **gdp_per_capita ($)** variable looks like for different **sex** groups using the **boxplot**.
 
 ``` Python
 sns.boxplot(x="sex", y="gdp_per_capita ($)", data=suicide)
@@ -318,9 +318,9 @@ sns.catplot(x="sex", y="gdp_per_capita ($)", kind = "boxen", data=suicide)
 ### Example #2 - Horizontal boxenplot seaborn
 
 ``` Python
-sns.boxenplot(y="sex", x="gdp_per_capita ($)", 
+sns.boxenplot(y="sex", x="gdp_per_capita ($)",
               orient="h",data=suicide)
-sns.catplot(y="sex", x="gdp_per_capita ($)", kind = "boxen", 
+sns.catplot(y="sex", x="gdp_per_capita ($)", kind = "boxen",
             orient = "h", data=suicide)
 ```
 ![horizontal boxenplot in seaborn](/images/seaborn/boxenplot-2.png)
@@ -329,9 +329,9 @@ sns.catplot(y="sex", x="gdp_per_capita ($)", kind = "boxen",
 
 ``` Python
 tips = sns.load_dataset("tips")
-sns.boxenplot(x="size", y="total_bill", 
+sns.boxenplot(x="size", y="total_bill",
             hue="day", data=tips)
-sns.catplot(x="size", y="total_bill", 
+sns.catplot(x="size", y="total_bill",
             hue = "day" , kind = "boxen", data=tips)
 ```
 ![boxenplot with grouped variable in seaborn](/images/seaborn/boxenplot-3.png)
@@ -340,7 +340,7 @@ sns.catplot(x="size", y="total_bill",
 The **count plot** is also a dribution plot which is similar to hitorgrams. The only difference being that count plots are generated for categorical variable as compared to histograms which help visualize dritribution of quantitative variables.
 
 ### Example #1  Verticle count plot
-For this example, lets see the distribution of categorical `age` variable from the **suicide** dataset. 
+For this example, lets see the distribution of categorical `age` variable from the **suicide** dataset.
 
 ``` Python
 sns.countplot(x="age", data=suicide)
@@ -348,7 +348,7 @@ sns.catplot(x="age", kind = "count", data=suicide)
 ```
 ![verticale count plot in seaborn](/images/seaborn/countplot-1.png)
 
-The above chart sugests we have equal number of observations in all six age categories. 
+The above chart sugests we have equal number of observations in all six age categories.
 
 ### Example #2  Horizontal count plot
 To draw a horizontal count plot you can mention the variable name in argment `y` instead of `x`. Let's check the distribution of generation variabe.
@@ -369,7 +369,7 @@ sns.catplot(y="generation", hue = "sex", kind = "count", data=suicide)
 ![boxenplot with grouped variable in seaborn](/images/seaborn/countplot-3.png)
 
 ## Seaborn - barplot Python
-In seaborn barplots are used to plot the central tendency estimates for the numerical variables along with the error bars. 
+In seaborn barplots are used to plot the central tendency estimates for the numerical variables along with the error bars.
 
 ### Example #1 Vertical barplot
 Let's check out the central tendency estimates of **gdp_per_capita ($)**  by the **generation** in suicide dataset.
@@ -413,7 +413,7 @@ sns.barplot(x="generation", y ="gdp_per_capita ($)",
 ![barplot seaborn three dimention example](/images/seaborn/barplot-4.png)
 
 ## Seaborn - pointplot Python
-**Point plots** are similar to bar plots as they also show the central tendency estimate along with the error bars. However, you may find points to be more useful for comparing levels of one or more than one categorical variable. 
+**Point plots** are similar to bar plots as they also show the central tendency estimate along with the error bars. However, you may find points to be more useful for comparing levels of one or more than one categorical variable.
 
 ### Examplt #1 point plot Python
 
@@ -426,17 +426,17 @@ sns.pointplot(x="generation", y ="gdp_per_capita ($)", data =suicide)
 ### Examplt #2 point plot by group variable Python
 ``` Python
 tips = sns.load_dataset("tips")
-sns.pointplot(x="size", y ="total_bill", 
+sns.pointplot(x="size", y ="total_bill",
               hue = "day",data =tips, dodge = True)
-              
-sns.catplot(x="size", y ="total_bill", 
-              hue = "day", data =tips, 
+
+sns.catplot(x="size", y ="total_bill",
+              hue = "day", data =tips,
             dodge = True, kind = "point")
 ```
 ![point plot seaborn](/images/seaborn/pointplot-2.png)
 
 ## Seaborn - stripplot Python
-The `stripplots` can be used as substitutes for boxplots especially when you want to showcase all the observations as data points. 
+The `stripplots` can be used as substitutes for boxplots especially when you want to showcase all the observations as data points.
 
 ### Example #1 Stripplot in Python
 
@@ -452,7 +452,7 @@ sns.stripplot(y=titanic.fare)
 
 ``` Python
 sns.stripplot(x = "class",y = "fare", data = titanic)
-sns.catplot(x = "class",y = "fare", 
+sns.catplot(x = "class",y = "fare",
             data = titanic, kind = "strip")
 ```
 ![stripplots with categorical variable seaborn](/images/seaborn/stripplot-2.png)
@@ -462,14 +462,14 @@ sns.catplot(x = "class",y = "fare",
 
 **Below is the plot with `jitter = False`**
 ``` Python
-sns.stripplot(x = "class",y = "age", 
+sns.stripplot(x = "class",y = "age",
               data = titanic, jitter = False)
 ```
 ![stripplots without jitters seaborn](/images/seaborn/stripplot-3.png)  
 
 **Below is the plot with `jitter = True`**
 ```Python
-sns.catplot(x = "class",y = "age", 
+sns.catplot(x = "class",y = "age",
             data = titanic, kind = "strip", jitter = True)
 ```
 ![stripplots with jitters seaborn](/images/seaborn/stripplot-4.png)
@@ -484,20 +484,20 @@ sns.catplot(x = "class",y = "age", hue = "alive",
 ```
 ![stripplots with two categorical variables seaborn](/images/seaborn/stripplot-5.png)
 
-You can see that compared to third class more number of individuals servived in first class. 
+You can see that compared to third class more number of individuals servived in first class.
 
 ### Example #5 Stripplot with differnt asthetics
 In this example, we will see how change the following arguments
-- shape of the markers: `marker = ` 
-- use new palettes: `palette =` 
+- shape of the markers: `marker = `
+- use new palettes: `palette =`
 - size of the markers: `size =`
 - opacity of markers: `alpha =`
-- markeredge colors: `edgecolor =` 
+- markeredge colors: `edgecolor =`
 
 ``` Python
-sns.stripplot(x = "class",y = "age",  hue = "alive", 
+sns.stripplot(x = "class",y = "age",  hue = "alive",
               palette="Set2", size=5, marker="D",
-              edgecolor="red", alpha=.50, 
+              edgecolor="red", alpha=.50,
               data = titanic, jitter = True)
 ```
 ![stripplots with two categorical variables seaborn](/images/seaborn/stripplot-6.png)
@@ -509,7 +509,7 @@ The plot is exactly same as `striplot` with only difference that unlike strip pl
 
 ``` Python
 sns.swarmplot(x = "class",y = "fare", data = titanic)
-sns.catplot(x = "class",y = "fare", 
+sns.catplot(x = "class",y = "fare",
             data = titanic, kind = "swarm")
 ```
 ![swarmplot with categorical variable seaborn](/images/seaborn/swarmplot-1.png)
@@ -525,7 +525,7 @@ sns.catplot(x = "class",y = "age", hue = "alive",
 ![swarmplot with two categorical variable seaborn](/images/seaborn/swarmplot-2.png)
 
 ## Seaborn - FacetGrid Python
-One of the most popuar ways to plot multiple plots by ensuring charts are still readable is through the use of **grids**. In seabborn library, we have  `FacetGrid()` function that provides this functionality. It can be used to draw upto three dimensions using `row`, `col` and `hue`. 
+One of the most popuar ways to plot multiple plots by ensuring charts are still readable is through the use of **grids**. In seabborn library, we have  `FacetGrid()` function that provides this functionality. It can be used to draw upto three dimensions using `row`, `col` and `hue`.
 
 Let's see how we can plot fairs by class using titanic data. To generate grids we would be required to first create the facets.
 
@@ -567,15 +567,15 @@ plot.add_legend()
 ![facetgrid mapping scatterplot by categorical variables with legend seaborn](/images/seaborn/facetgrid-4.png)
 ## Seaborn - pairwise plot Python
 
-**Pairwise plot** is a very interesting plot. It represents a lot of information by plotting small subplots in a gird like arrangement. In each **gird** row and column is assigned to a different variable creating a pairwise bivariate relationship plot at the intersection. The diagonal plots represent univariate information, mostly related to ditribution. 
+**Pairwise plot** is a very interesting plot. It represents a lot of information by plotting small subplots in a gird like arrangement. In each **gird** row and column is assigned to a different variable creating a pairwise bivariate relationship plot at the intersection. The diagonal plots represent univariate information, mostly related to ditribution.
 
-The `seaborn` package in Python provides two functions IE `PairGrid()` and `pairplot()` using which you can plot the pairwise relationships. Let's look at the two functions one by one. 
+The `seaborn` package in Python provides two functions IE `PairGrid()` and `pairplot()` using which you can plot the pairwise relationships. Let's look at the two functions one by one.
 
 **For examples on pairwise relationship plots we will be using car crashes dataset from seaborn package**
 
 ### Seaborn - PairGrid Python Pairwise plot
 
-The `PairGrid()` function is very similar to `FacetGrid()`. Just like `FacetGrid` you need to first initialize the grid and then useing `map` method generate the plots. 
+The `PairGrid()` function is very similar to `FacetGrid()`. Just like `FacetGrid` you need to first initialize the grid and then useing `map` method generate the plots.
 
 ``` Python
 crashes = sns.load_dataset('car_crashes')
@@ -596,7 +596,7 @@ The pariwise matrix shown above can be divided into following parts and subparts
 - Off diagonal charts
   - upper triangle charts
   - lower triangle charts
-  
+
 > You can refer to these parts and change the chart type as per your requirment.
 
 ### Example #1 Changing diagonal charts
@@ -631,7 +631,7 @@ plot.add_legend()
 ![PairGrid plot with categorical variable seaborn](/images/seaborn/pairwise-5.png)
 
 ### Seaborn - pairplot Python
-The other function which you can use to create a pariwise plot is `pairplot()`. The function is less flexible but faster in comparison to `PairGrid()`. Let's quickly see how we can recreate the some of the above plot. You can use `pairplot()` for quick analysis but for deeper and more customizations `PairGrid()` function is a much better choice. 
+The other function which you can use to create a pariwise plot is `pairplot()`. The function is less flexible but faster in comparison to `PairGrid()`. Let's quickly see how we can recreate the some of the above plot. You can use `pairplot()` for quick analysis but for deeper and more customizations `PairGrid()` function is a much better choice.
 
 Plotting a pairwise plot with cylinder as categorical variable.
 
@@ -738,5 +738,3 @@ Please leave comments, if
 3. You wish to add another example to the topic.
 4. You need more details in regards to a specific section.
 5. You are unable to execute an example code.
-
-

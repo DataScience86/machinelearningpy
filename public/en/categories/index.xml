@@ -41,12 +41,12 @@
       </item>
       
       <item>
-        <title>Python</title>
-        <link>/en/categories/python/</link>
-        <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
+        <title>Tutorial</title>
+        <link>/en/categories/tutorial/</link>
+        <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
         <author>will update soon (Mohit Sharma)</author>
         
-        <guid>/en/categories/python/</guid>
+        <guid>/en/categories/tutorial/</guid>
         <description></description>
         
         <dc:creator>Mohit Sharma</dc:creator>
@@ -59,48 +59,12 @@
       </item>
       
       <item>
-        <title>Clustering</title>
-        <link>/en/categories/clustering/</link>
-        <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
+        <title>Visualization</title>
+        <link>/en/categories/visualization/</link>
+        <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
         <author>will update soon (Mohit Sharma)</author>
         
-        <guid>/en/categories/clustering/</guid>
-        <description></description>
-        
-        <dc:creator>Mohit Sharma</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Statistics</title>
-        <link>/en/categories/statistics/</link>
-        <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
-        <author>will update soon (Mohit Sharma)</author>
-        
-        <guid>/en/categories/statistics/</guid>
-        <description></description>
-        
-        <dc:creator>Mohit Sharma</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Unsupervised Learning</title>
-        <link>/en/categories/unsupervised-learning/</link>
-        <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
-        <author>will update soon (Mohit Sharma)</author>
-        
-        <guid>/en/categories/unsupervised-learning/</guid>
+        <guid>/en/categories/visualization/</guid>
         <description></description>
         
         <dc:creator>Mohit Sharma</dc:creator>
@@ -115,7 +79,7 @@
       <item>
         <title>Machine Learning</title>
         <link>/en/categories/machine-learning/</link>
-        <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
         <author>will update soon (Mohit Sharma)</author>
         
         <guid>/en/categories/machine-learning/</guid>
@@ -133,7 +97,7 @@
       <item>
         <title>Natural Language Processing</title>
         <link>/en/categories/natural-language-processing/</link>
-        <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
         <author>will update soon (Mohit Sharma)</author>
         
         <guid>/en/categories/natural-language-processing/</guid>
@@ -149,12 +113,48 @@
       </item>
       
       <item>
-        <title>Visualization</title>
-        <link>/en/categories/visualization/</link>
-        <pubDate>Fri, 06 Dec 2019 00:00:00 +0000</pubDate>
+        <title>Supervised Learning</title>
+        <link>/en/categories/supervised-learning/</link>
+        <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
         <author>will update soon (Mohit Sharma)</author>
         
-        <guid>/en/categories/visualization/</guid>
+        <guid>/en/categories/supervised-learning/</guid>
+        <description></description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Unsupervised Learning</title>
+        <link>/en/categories/unsupervised-learning/</link>
+        <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
+        <author>will update soon (Mohit Sharma)</author>
+        
+        <guid>/en/categories/unsupervised-learning/</guid>
+        <description></description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Statistics</title>
+        <link>/en/categories/statistics/</link>
+        <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
+        <author>will update soon (Mohit Sharma)</author>
+        
+        <guid>/en/categories/statistics/</guid>
         <description></description>
         
         <dc:creator>Mohit Sharma</dc:creator>

@@ -5,7 +5,7 @@ custom_css = []
 custom_js = []
 useFaviconGenerator = true # https://www.favicon-generator.org/
 meta_image = ""
-themecolor = "#4CA89A"
+themecolor = "light"
 
 themeOptions = ["dark", "light", "hacker", "solarized", "kimbie"]
 notAllowedTypesInHome = ["contact", "talks", "about", "showcase", "publication", "presentation", "resume"]
@@ -73,7 +73,7 @@ showPoweredBy = true
 showFeedLinks = true
 showSocialLinks = true
 enableLangChange = true
-enableThemeChange = true
+enableThemeChange = false
 
 # service
 googleTagManager = "" # GTM-XXXXXX

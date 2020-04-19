@@ -10,7 +10,6 @@ tags:
 - shallow copy
 
 categories:
-- Python
 - Programming
 
 featured_image: "notesfeatureimg/copy.png"

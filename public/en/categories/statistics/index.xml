@@ -14,13 +14,60 @@
     <managingEditor>will update soon (Mohit Sharma)</managingEditor>
     <webMaster>will update soon (Mohit Sharma)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 20 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jan 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/en/categories/statistics/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>SMOTE for dealing with imbalanced dataset</title>
+        <link>/en/notes/smote-dealing-imbalanced-data/</link>
+        <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
+        <author>will update soon (Mohit Sharma)</author>
+        <atom:modified>Wed, 15 Jan 2020 00:00:00 +0000</atom:modified>
+        <guid>/en/notes/smote-dealing-imbalanced-data/</guid>
+        <description>It is generally not a good idea to train a Machine Learning algorithm when one of the class dominates the other. It is advisable to upsample the minority class or downsample the majority class. Synthetic Minority Over-sampling Technique (SMOTE) is one such algorithm that can be used to upsample the minority class.
+When to use SMOTE Machine Learning algorithms find it challenging to learn the patterns if the examples from one of the classes are limited.</description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        <media:content url="/image/notesfeatureimg/smote.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+          
+            
+              <category>Python</category>
+            
+          
+            
+              <category>SMOTE</category>
+            
+          
+            
+              <category>Imbalanced data</category>
+            
+          
+            
+              <category>Data preparation</category>
+            
+          
+            
+              <category>Upsampling</category>
+            
+          
+        
+        
+          
+            
+              <category>Statistics</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>How to identify Anomalies/Outliers in Python</title>
@@ -31,9 +78,7 @@
         <guid>/en/posts/outlier-anomaly-detection/</guid>
         <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Data objects or points which exhibit very different behavior than the expectations are called as &lt;strong&gt;outliers or anomalies&lt;/strong&gt;. They can indicate variability in the measurement, an error in the collection, a new point(due to some changes), or it could be true, which happens to be away from most of the observations.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Detecting and treating outliers is an important part of data exploration.&lt;/p&gt;
-&lt;/blockquote&gt;</description>
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34; data-dir=&#34;ltr&#34;&gt;Detecting and treating outliers is an important part of data exploration.&lt;/div&gt;</description>
         
         <dc:creator>Mohit Sharma</dc:creator>
         
@@ -77,74 +122,15 @@
         
           
             
-              <category>Python</category>
+              <category>Statistics</category>
             
           
             
-              <category>Statistics</category>
+              <category>Machine Learning</category>
             
           
             
               <category>Unsupervised Learning</category>
-            
-          
-            
-              <category>Clustering</category>
-            
-          
-        
-        
-      </item>
-      
-      <item>
-        <title>SMOTE for dealing with imbalanced dataset</title>
-        <link>/en/notes/smote-dealing-imbalanced-data/</link>
-        <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
-        <author>will update soon (Mohit Sharma)</author>
-        <atom:modified>Sun, 15 Dec 2019 00:00:00 +0000</atom:modified>
-        <guid>/en/notes/smote-dealing-imbalanced-data/</guid>
-        <description>It is generally not a good idea to train a Machine Learning algorithm when one of the class dominates the other. It is advisable to upsample the minority class or downsample the majority class. Synthetic Minority Over-sampling Technique (SMOTE) is one such algorithm that can be used to upsample the minority class.
-When to use SMOTE Machine Learning algorithms find it challenging to learn the patterns if the examples from one of the classes are limited.</description>
-        
-        <dc:creator>Mohit Sharma</dc:creator>
-        
-        <media:content url="/image/notesfeatureimg/smote.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-          
-            
-              <category>Python</category>
-            
-          
-            
-              <category>Note</category>
-            
-          
-            
-              <category>SMOTE</category>
-            
-          
-            
-              <category>Imbalanced data</category>
-            
-          
-            
-              <category>Data preparation</category>
-            
-          
-            
-              <category>Upsampling</category>
-            
-          
-        
-        
-          
-            
-              <category>Python</category>
-            
-          
-            
-              <category>Statistics</category>
             
           
         

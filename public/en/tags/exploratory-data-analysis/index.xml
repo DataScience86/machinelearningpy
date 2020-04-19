@@ -14,7 +14,7 @@
     <managingEditor>will update soon (Mohit Sharma)</managingEditor>
     <webMaster>will update soon (Mohit Sharma)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 06 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Mar 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/en/tags/exploratory-data-analysis/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,11 +23,11 @@
 
       
       <item>
-        <title>A Step By Step Seaborn Tutorial</title>
+        <title>Complete Step By Step Seaborn Tutorial</title>
         <link>/en/posts/seaborn-tutorial/</link>
-        <pubDate>Fri, 06 Dec 2019 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
         <author>will update soon (Mohit Sharma)</author>
-        <atom:modified>Fri, 06 Dec 2019 00:00:00 +0000</atom:modified>
+        <atom:modified>Sat, 14 Mar 2020 00:00:00 +0000</atom:modified>
         <guid>/en/posts/seaborn-tutorial/</guid>
         <description>Introduction To Seaborn Seaborn is a python library which is built on top of matplotlib package. The package is also closely integrated with pandas data structure. Seaborn functions aim to make exploring and data understanding easy through visualization. The functions provided in seaborn can work on data frames and arrays. While building graphs the functions can internally perform statistical aggregations and generate informative graphs. In this article, we will leanr how to draw different types of charts using seaborn library in Python.</description>
         
@@ -65,11 +65,11 @@
         
           
             
-              <category>Python</category>
+              <category>Visualization</category>
             
           
             
-              <category>Visualization</category>
+              <category>Tutorial</category>
             
           
         
