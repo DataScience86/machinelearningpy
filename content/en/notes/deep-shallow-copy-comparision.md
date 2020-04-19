@@ -1,7 +1,7 @@
 ---
 author: "Mohit Sharma"
 title:  "Python - deep copy vs shallow copy"
-date: "2020-19-04"
+date: "2020-04-19"
 description: "Learn the difference between shallow copy, deep copy and normal assignment operator in python."
 tags:
 - Python

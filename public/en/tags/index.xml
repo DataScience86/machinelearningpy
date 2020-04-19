@@ -14,13 +14,85 @@
     <managingEditor>will update soon (Mohit Sharma)</managingEditor>
     <webMaster>will update soon (Mohit Sharma)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 20 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/en/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>copy</title>
+        <link>/en/tags/copy/</link>
+        <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
+        <author>will update soon (Mohit Sharma)</author>
+        
+        <guid>/en/tags/copy/</guid>
+        <description></description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>deep copy</title>
+        <link>/en/tags/deep-copy/</link>
+        <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
+        <author>will update soon (Mohit Sharma)</author>
+        
+        <guid>/en/tags/deep-copy/</guid>
+        <description></description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Python</title>
+        <link>/en/tags/python/</link>
+        <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
+        <author>will update soon (Mohit Sharma)</author>
+        
+        <guid>/en/tags/python/</guid>
+        <description></description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>shallow copy</title>
+        <link>/en/tags/shallow-copy/</link>
+        <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
+        <author>will update soon (Mohit Sharma)</author>
+        
+        <guid>/en/tags/shallow-copy/</guid>
+        <description></description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>Anomaly</title>
@@ -119,24 +191,6 @@
         <author>will update soon (Mohit Sharma)</author>
         
         <guid>/en/tags/outlier/</guid>
-        <description></description>
-        
-        <dc:creator>Mohit Sharma</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Python</title>
-        <link>/en/tags/python/</link>
-        <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
-        <author>will update soon (Mohit Sharma)</author>
-        
-        <guid>/en/tags/python/</guid>
         <description></description>
         
         <dc:creator>Mohit Sharma</dc:creator>
@@ -563,66 +617,12 @@
       </item>
       
       <item>
-        <title>copy</title>
-        <link>/en/tags/copy/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        <author>will update soon (Mohit Sharma)</author>
-        
-        <guid>/en/tags/copy/</guid>
-        <description></description>
-        
-        <dc:creator>Mohit Sharma</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>deep copy</title>
-        <link>/en/tags/deep-copy/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        <author>will update soon (Mohit Sharma)</author>
-        
-        <guid>/en/tags/deep-copy/</guid>
-        <description></description>
-        
-        <dc:creator>Mohit Sharma</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
         <title>index</title>
         <link>/en/tags/index/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>will update soon (Mohit Sharma)</author>
         
         <guid>/en/tags/index/</guid>
-        <description></description>
-        
-        <dc:creator>Mohit Sharma</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>shallow copy</title>
-        <link>/en/tags/shallow-copy/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        <author>will update soon (Mohit Sharma)</author>
-        
-        <guid>/en/tags/shallow-copy/</guid>
         <description></description>
         
         <dc:creator>Mohit Sharma</dc:creator>
