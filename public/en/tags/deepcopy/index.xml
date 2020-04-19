@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>deepcopy on Machine Learnig Py</title>
+    <link>/en/tags/deepcopy/</link>
+    <description>Recent content in deepcopy on Machine Learnig Py</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>will update soon (Mohit Sharma)</managingEditor>
+    <webMaster>will update soon (Mohit Sharma)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sun, 08 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="/en/tags/deepcopy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>How to copy in Pyhon - Shallow Copy Vs Deep Copy</title>
+        <link>/en/notes/deep-shallow-copy-comparision/</link>
+        <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+        <author>will update soon (Mohit Sharma)</author>
+        <atom:modified>Sun, 08 Dec 2019 00:00:00 +0000</atom:modified>
+        <guid>/en/notes/deep-shallow-copy-comparision/</guid>
+        <description>Please leave comments, if1. You find anything incorrect.2. You want to add more information to the topic.3. You wish to add another example to the topic.4. You need more details in regards to a specific section.5. You are unable to execute an example code.</description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        <media:content url="/image/notesfeatureimg/copy.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+          
+            
+              <category>Python</category>
+            
+          
+            
+              <category>deepcopy</category>
+            
+          
+            
+              <category>copy</category>
+            
+          
+            
+              <category>shallow copy</category>
+            
+          
+        
+        
+          
+            
+              <category>Python</category>
+            
+          
+            
+              <category>Programming</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

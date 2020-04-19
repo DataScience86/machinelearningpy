@@ -120,6 +120,52 @@ For example, you may like to limit the scope of a variable to a specific functio
         
       </item>
       
+      <item>
+        <title>Python - deep copy vs shallow copy</title>
+        <link>/en/notes/deep-shallow-copy-comparision/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>will update soon (Mohit Sharma)</author>
+        
+        <guid>/en/notes/deep-shallow-copy-comparision/</guid>
+        <description>How to copy an object in Python If you are new to programming, then there is a fair chance that you may not have come across a logical scenario that requires one to use a deep copy of an object instead of a shallow copy. Before we dive into when to use what and why let&amp;rsquo;s look at an example on assignment operator. You need to understand what exactly happens when we use an assignment = operator in Python.</description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        <media:content url="/image/notesfeatureimg/copy.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+          
+            
+              <category>Python</category>
+            
+          
+            
+              <category>deep copy</category>
+            
+          
+            
+              <category>copy</category>
+            
+          
+            
+              <category>shallow copy</category>
+            
+          
+        
+        
+          
+            
+              <category>Python</category>
+            
+          
+            
+              <category>Programming</category>
+            
+          
+        
+        
+      </item>
+      
 
     
   </channel>

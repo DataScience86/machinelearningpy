@@ -288,7 +288,19 @@
   </url>
   
   <url>
+    <loc>/en/tags/copy/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tags/deep-copy/</loc>
+  </url>
+  
+  <url>
     <loc>/en/tags/index/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/notes/deep-shallow-copy-comparision/</loc>
   </url>
   
   <url>
@@ -303,6 +315,10 @@
                 hreflang="en"
                 href="/en/series/"
                 />
+  </url>
+  
+  <url>
+    <loc>/en/tags/shallow-copy/</loc>
   </url>
   
 </urlset>

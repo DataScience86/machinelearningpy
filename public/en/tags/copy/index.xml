@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>copy on Machine Learnig Py</title>
+    <link>/en/tags/copy/</link>
+    <description>Recent content in copy on Machine Learnig Py</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>will update soon (Mohit Sharma)</managingEditor>
+    <webMaster>will update soon (Mohit Sharma)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="/en/tags/copy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>Python - deep copy vs shallow copy</title>
+        <link>/en/notes/deep-shallow-copy-comparision/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>will update soon (Mohit Sharma)</author>
+        
+        <guid>/en/notes/deep-shallow-copy-comparision/</guid>
+        <description>How to copy an object in Python If you are new to programming, then there is a fair chance that you may not have come across a logical scenario that requires one to use a deep copy of an object instead of a shallow copy. Before we dive into when to use what and why let&amp;rsquo;s look at an example on assignment operator. You need to understand what exactly happens when we use an assignment = operator in Python.</description>
+        
+        <dc:creator>Mohit Sharma</dc:creator>
+        
+        <media:content url="/image/notesfeatureimg/copy.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+          
+            
+              <category>Python</category>
+            
+          
+            
+              <category>deep copy</category>
+            
+          
+            
+              <category>copy</category>
+            
+          
+            
+              <category>shallow copy</category>
+            
+          
+        
+        
+          
+            
+              <category>Python</category>
+            
+          
+            
+              <category>Programming</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
